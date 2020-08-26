@@ -1,9 +1,22 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
-	font-size: 32px;
+	font-size: 200px;
+	background-color: orange;
+	color: red;
+	text-align: center;
+	animation: colorchange 5s infinite alternate;
+	}
+	@keyframes colorchange {
+		0% {
+      font-size: 100px 
+		}
+		100% {
+       font-size: 200px
+      	}
 }
 
 a {
 	color:red;
 }
+
 
