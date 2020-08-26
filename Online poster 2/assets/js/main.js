@@ -4,10 +4,9 @@ var word1 = [
 	"worm",
 	"rabbit",
 	"tiger",
-  "panda",
-  "cat",
-  "rat"
-	
+    "panda",
+    "cat",
+    "rat"
 ];
 
 var randomWord1 = word1[Math.floor(Math.random()*word1.length)];
