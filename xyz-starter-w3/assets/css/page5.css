@@ -1,0 +1,39 @@
+.Title {
+	font-family:helvetica;
+	font-size: 100px;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	background-color:red;
+	color: gold;
+	width: 100%;
+	text-align: center;
+}
+
+.date {
+	animation: colorchange 5s infinite alternate;
+	font-family: helvetica ;
+	font-size: 200px;
+	text-align: left;
+	color: red;
+		}
+	@keyframes colorchange {
+		0% {
+       color: red;
+       transform: skew(50deg)
+		}
+		100% {
+       color: gold;
+       transform: skew(180deg)
+       }
+	}
+
+
+
+.message {
+color: red;
+font-family: baskerville;
+font-size: 100px;
+text-align: center;
+background-color: gold
+}

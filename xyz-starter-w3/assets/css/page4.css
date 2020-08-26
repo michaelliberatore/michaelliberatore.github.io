@@ -1,0 +1,57 @@
+.col {
+	display: inline-block;
+	width: 33%;
+	font-size: 80px;
+	font-family:Baskerville;
+	vertical-align: top;
+	text-align: center;
+	padding: 5px;
+	background-color: red;
+	color: gold;
+}
+
+.message1 {
+font-family: Helvetica;
+color: red;
+animation: colorchange 5s infinite alternate;
+}
+@keyframes colorchange {
+	0% {
+		font-size: 40px;
+		}
+		100% {
+			font-size: 100px;
+		}
+}
+.message2 {
+	animation: colorchange 5s infinite alternate;
+	font-family: Helvetica;
+	text-align: center;
+	color: red;
+		}
+	@keyframes colorchange {
+		0% {
+       font-size: 40px
+		}
+		100% {
+       font-size: 100px
+       }
+	} 
+.message3 {
+	text-align: right;
+	font-family: Helvetica;
+	color: red;
+	background-color: gold
+	margin-bottom: 50px;
+	padding: 50px;
+	animation: colorchange 5s infinite alternate;
+	}
+	@keyframes colorchange {
+		0% {
+      font-size: 40px 
+		}
+		100% {
+       font-size: 100px
+      	}
+	}
+

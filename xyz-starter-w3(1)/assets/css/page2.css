@@ -1,0 +1,36 @@
+.box {
+	font-family: arial;
+	width: 200%;
+	background-color: red;
+	white-space: nowrap;
+	font-size: 140px;
+	overflow: scroll
+	filter:blur(100px);
+
+}
+
+.box:hover {
+	background-color: gold;
+}
+
+.box2 {
+	width: 400px;
+	height: 400px;
+	background-color: red;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	overflow: scroll;
+	font-size: 80px;
+	font-family: arial;
+	text-align: center;
+	border-radius: 100%;
+}
+
+.rotate {
+	font-family: arial;
+	font-size: 90px;
+	text-transform: uppercase;
+	transform: rotate(-40deg);
+	transform-origin: top left
+}

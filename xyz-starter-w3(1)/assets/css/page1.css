@@ -1,0 +1,19 @@
+body {
+background:linear-gradient( to left, red 0%, yellow 10%, orange 25%,gold 45%);	
+}
+
+
+.square {
+	width: 400px;
+	height: 400px;
+	background:linear-gradient( to bottom, red 0%, yellow 10%, orange 25%,gold 45%);
+	
+}
+
+.circle {
+	width: 400px;
+	height: 400px;
+	background: radial-gradient(orange 0%, gold 25%, red 50%);
+	border-radius: 100%;
+	}
+
