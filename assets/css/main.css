@@ -1,7 +1,11 @@
-body {
+.title {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 200px;
 	background-color: orange;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1400px;
+	height: 800px;
 	color: red;
 	text-align: center;
 	animation: colorchange 5s infinite alternate;
@@ -17,6 +21,21 @@ body {
 
 a {
 	color:red;
+	
+	width: 1400px;
+	height: 800px;
 }
+
+.body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 50px;
+	color: red;
+	background-color: 100% orange;
+	text-align: center;
+	position: relative;
+	bottom: 300px;
+}
+
+
 
 
