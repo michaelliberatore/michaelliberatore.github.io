@@ -1,14 +1,14 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
-	font-size: 60px;
+	font-size: 250px;
 	text-align: center;
 	color: red;
-	background-color: black;
-	animation: colorchange 5s infinite;
+background:linear-gradient( to left, red 48%, gold 52% );	
+	animation: colorchange 3s infinite;
 }
 	@keyframes colorchange {
 		0% {
-       color: gold;
+       color: white;
 		}
 		100% {
        color: red;
@@ -22,36 +22,53 @@ a {
 .message1 {
 color: red;
 font-size: 50px;
-text-align: center;
+text-align: left;
 
 }
 .message2 {
 	color: red;
-	font-size: 100px;
-	animation: colorchange 5s infinite;
-	text-align: right;
+	font-size: 200px;
+	animation: colorchange 3s infinite;
+	text-align: left;
 		}
 	@keyframes colorchange {
 		0% {
-       color: red;
+       color: white;
 		}
 		100% {
-       color: gold;
+       color: red;
 		}
+
 	} 
 .message3 {
 	color: red;
-	font-size: 200px;
-	text-align: left;
-	animation: colorchange s infinite;
-	margin-bottom: 50px;
-	padding: 50px
+	font-size:100px;
+	text-align: right;
+	margin-bottom: 20px;
+	padding: 10px;
+	animation: colorchange 3s infinite;
 }
 @keyframes colorchange {
 	0% {
-		color: gold;
+		color: red;
 		}
 		100% {
-			color: red;
+			color: white;
 		}
 }
+
+.message4 {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 50px;
+	text-align: center;
+	color:red;
+	animation: colorchange 3s infinite;
+}
+@keyframes colorchange {
+	0% {
+		color: red;
+		}
+		100% {
+			color: white;
+		}
+	{

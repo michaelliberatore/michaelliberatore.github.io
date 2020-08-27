@@ -8,32 +8,55 @@
 	color: gold;
 	width: 100%;
 	text-align: center;
+	padding-bottom: 10px;
+	animation: pulse 7s ease infinite alternate;
+	}
+
+	@keyframes pulse {
+	0%, 100% {
+		background-color: red;
+	}
+	50% {
+		background-color: white;
+	}
+}
+.message {
+color: gold;
+font-family: baskerville;
+font-size: 80px;
+text-align: center;
+background-color: red;
+width: 100%;
+height: 100%;
+animation: pulse 7s ease infinite alternate;
+	}
+
+	@keyframes pulse {
+	0%, 100% {
+		background-color: red;
+	}
+	50% {
+		background-color: white;
+	}
 }
 
 .date {
 	animation: colorchange 5s infinite alternate;
 	font-family: helvetica ;
-	font-size: 200px;
-	text-align: left;
+	font-size: 190px;
+	text-align: center;
 	color: red;
 		}
 	@keyframes colorchange {
 		0% {
        color: red;
-       transform: skew(50deg)
+       transform: skew(90deg)
 		}
 		100% {
        color: gold;
-       transform: skew(180deg)
+       transform: skew(170deg)
        }
 	}
 
 
 
-.message {
-color: red;
-font-family: baskerville;
-font-size: 100px;
-text-align: center;
-background-color: gold
-}
