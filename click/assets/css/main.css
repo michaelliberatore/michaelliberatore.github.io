@@ -1,0 +1,133 @@
+body {
+	font-size: 21px;
+	font-family: arial;
+}
+
+/* index css */
+
+.demo-menu {
+	margin-left:10px;
+	margin-top:10px;
+}
+
+
+/* Make sure to add transition:2s; */
+
+.smile {
+	width:150px;
+	height:150px;
+	margin:10px;	
+	background-color: gray;
+	transition:2s;
+}
+
+/*Add background color, and then transition:2s; */
+
+.smile:hover {
+	width: 300px;
+	background-color: yellow;
+	transition:2s;
+}
+
+.box {
+	width:150px;
+	height:150px;
+	margin:10px;
+	background-color:red;
+	transition:2s;
+}
+
+
+
+
+.slide {
+	width:50%;
+	height: 100vh;
+	padding:10px;
+	background-color: yellow;
+	position:fixed;
+	top:0px;
+	right:0px;
+	margin-right: -500%;
+}
+
+/* add a .active, then make it specific to the element that is active ie.
+.box.active or .slide.active or .alert.active  */
+
+	.box.active {
+		background-color: blue;
+		transition:2s;
+	}
+
+
+.slide.active {
+	margin-right: 0;
+	transition:2s;
+}
+.alert {
+	width:200px;
+	padding:20px;
+	position:fixed;
+	top:50px;
+	left:400px;
+	box-shadow:10px 10px 10px gray;
+	background-color: yellow;
+}
+
+
+
+
+/* image css */
+
+.nav {
+	width:100%;
+	padding:20px;
+	position:fixed;
+	top:0px;
+	left:0px;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-around;
+}
+
+.btn {
+	border:1px solid black;
+	padding:10px;
+	border-radius: 10px;
+}
+
+
+.container {
+	display: flex;
+	flex-wrap:wrap;
+}
+
+.item {
+	width:33%;
+}
+
+/*try adding some specific widths such as .item.small or .item.large  */
+
+.item.small {
+	width: 16%;
+}
+
+.item.large {
+	width: 16%;
+}
+
+.item img {
+	filter:grayscale(100%) contrast(2);
+	width: 100%;
+
+}
+.item img:hover {
+	filter:grayscale(0%) contrast(1);
+}
+
+/*Add .item .hide */
+
+.item.hide{
+	display: none;
+}
+
