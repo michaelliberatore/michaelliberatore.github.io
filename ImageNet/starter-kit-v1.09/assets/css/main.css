@@ -8,12 +8,13 @@ body {
   display:flex;
   justify-content:flex-start;
   background-color: lightgrey;
-  box-shadow: 0px 0px 10px 10px blue;
+  box-shadow: 0px 0px 10px 10px white;
   position: fixed;
   top: 10px;
   left: 0px;
   width: 100%;
-  background-color:blue;
+  background-color:white;
+
  }
 
  .btn {
@@ -21,6 +22,7 @@ body {
    padding: 10px;
    margin:10px;
    border-radius: 10px;
+   position: center
  }
 
  .btn:hover {
@@ -30,11 +32,22 @@ body {
  }
 
  .title {
- 	font-size: 100px;
+ 	font-size: 150px;
  	font-family: Arial;
  	text-align: center;
  	color: Orange; 
  	margin-top: 33.33vh;
+  padding-bottom: 10px;
+    animation: colorchange 3s infinite;
+}
+  @keyframes colorchange {
+    0% {
+       color: Blue;
+    }
+    100% {
+       color: Orange;
+    }
+  } 
  }
 
  .container {
