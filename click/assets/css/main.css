@@ -51,9 +51,6 @@ body {
 	margin-right: -500%;
 }
 
-/* add a .active, then make it specific to the element that is active ie.
-.box.active or .slide.active or .alert.active  */
-
 	.box.active {
 		background-color: blue;
 		transition:2s;
@@ -113,7 +110,7 @@ body {
 }
 
 .item.large {
-	width: 16%;
+	width: 99%;
 }
 
 .item img {
@@ -124,8 +121,6 @@ body {
 .item img:hover {
 	filter:grayscale(0%) contrast(1);
 }
-
-/*Add .item .hide */
 
 .item.hide{
 	display: none;

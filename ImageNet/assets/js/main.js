@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	console.log('hello world');
+	
 
 	$('.btn-box').click(function(){
 		$('.box').toggleClass('active');
@@ -20,19 +20,18 @@ $(document).ready(function(){
 
 	$('.btn-Punk').click(function(){
 		$('.item').addClass('hide');
-		$('.item.mag').removeClass('hide')
+		$('.item.Punk').removeClass('hide')
 	});
 
 	$('.btn-Psychedelic').click(function(){
 		$('.item').addClass('hide');
-		$('.item.red').removeClass('hide')
+		$('.item.Psychedelic').removeClass('hide')
 	});
 
 	$('.btn-Reggae').click(function(){
 		$('.item').addClass('hide');
-		$('.item.red').removeClass('hide')
+		$('.item.Reggae').removeClass('hide')
+
 	});
-
-
 
 });

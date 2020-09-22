@@ -157,14 +157,6 @@ body {
   width:33%;
 }
 
-.item.small {
-  width: 16%;
-}
-
-.item.large {
-  width: 16%;
-}
-
 .item img {
   filter:grayscale(100%) contrast(2);
   width: 100%;
