@@ -1,23 +1,14 @@
 .title {
 	font-family: Helvetica,Arial,sans-serif;
-	font-size: 200px;
-	background-color: orange;
+	font-size: 50px;
+	padding: 10px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 1400px;
 	height: 800px;
 	color: red;
-	text-align: center;
-	animation: colorchange 5s infinite alternate;
+	text-align: left;
 	}
-	@keyframes colorchange {
-		0% {
-      font-size: 100px 
-		}
-		100% {
-       font-size: 200px
-      	}
-}
 
 a {
 	color:red;
@@ -28,12 +19,13 @@ a {
 
 .body {
 	font-family: Helvetica,Arial,sans-serif;
-	font-size: 50px;
+	font-size: 30px;
+	padding-left: 10px;
 	color: red;
 	background-color: 100% orange;
-	text-align: center;
+	text-align: left;
 	position: relative;
-	bottom: 300px;
+	bottom: 650px;
 }
 
 
