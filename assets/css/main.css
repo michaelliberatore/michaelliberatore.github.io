@@ -1,32 +1,170 @@
-.title {
+.body {
 	font-family: Helvetica,Arial,sans-serif;
-	font-size: 50px;
-	padding: 10px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 1400px;
-	height: 800px;
+	font-size: 30px;
+	padding-left: 300px;
 	color: red;
-	text-align: left;
-	}
-
+	text-align: center;
+	position: relative;
+	bottom: 450px;
+}
 a {
 	color:red;
 	
 	width: 1400px;
 	height: 800px;
 }
-
-.body {
+.title {
 	font-family: Helvetica,Arial,sans-serif;
-	font-size: 30px;
-	padding-left: 10px;
+	font-size: 150px;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1400px;
+	height: 800px;
 	color: red;
-	background-color: 100% orange;
-	text-align: left;
-	position: relative;
-	bottom: 650px;
+	text-align: center;
+	}
+
+  .nav {
+  
+  justify-content:flex-start;
+  background-color: white;
+  top: 20px; 
+  left: 500px;
+  width: 100%;
+  z-index: 9999;
+
+ }
+
+ .btn {
+  
+  border: 1px red;
+  color: red;
+  padding: 10px 24px;
+  cursor: pointer;
+  width: 50%;
+  display: block;
+ }
+
+ .btn:hover {
+ 	background-color: red;
+ 	color: white;
+ 	cursor: pointer;
+ }
+
+ .container {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:flex-end;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+
+ }
+
+ .item {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+ 
+ }
+
+ .item img {
+ 	max-width: 100%;
+ 	display: block;
+ 	margin: auto;
+ 	padding-bottom: 0px;
+ }
+
+.smile:hover {
+  width: 300px;
+  background-color: yellow;
+  transition:2s;
 }
+
+.box {
+  width:150px;
+  height:150px;
+  margin:10px;
+  background-color:red;
+  transition:2s;
+}
+
+.slide {
+  width:34%;
+  height: 50vh;
+  padding:20px;
+  background-color: orange;
+  position:fixed;
+  top:340px;
+  right:0px;
+  margin-right: 500%;
+  z-index: 9999
+}
+
+  .box.active {
+    background-color: blue;
+    transition:2s;
+  }
+
+
+.slide.active {
+  margin-right: 0;
+  transition:2s;
+  color: blue;
+}
+.alert {
+  width:200px;
+  padding:20px;
+  position:fixed;
+  top:50px;
+  left:400px;
+  box-shadow:10px 10px 10px gray;
+  background-color: yellow;
+}
+
+.nav {
+  width:100%;
+  padding:-30px;
+  position:fixed;
+  top:0px;
+  left:0px;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+}
+
+.btn {
+  border:1px solid black;
+  padding:10px;
+  border-radius: 10px;
+}
+
+
+.container {
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.item {
+  width:33%;
+}
+
+.item img {
+  filter:grayscale(100%) contrast(2);
+  width: 100%;
+
+}
+.item img:hover {
+  filter:grayscale(0%) contrast(1);
+}
+
+.item.hide{
+  display: none;
+}
+
+
+
 
 
 
