@@ -6,6 +6,7 @@
 	text-align: center;
 	position: relative;
 	bottom: 450px;
+
 }
 a {
 	color:red;
@@ -58,12 +59,13 @@ a {
   justify-content:flex-end;
   flex-direction: row-reverse;
   align-items: flex-end;
+  padding-bottom: 800px;
 
  }
 
  .item {
   width: 100%;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   background-color: white;
  
@@ -73,7 +75,7 @@ a {
  	max-width: 100%;
  	display: block;
  	margin: auto;
- 	padding-bottom: 0px;
+ 	padding-bottom: 160px;
  }
 
 .smile:hover {
@@ -147,12 +149,12 @@ a {
 }
 
 .item {
-  width:33%;
+  width:50%;
+  top: 10px;
 }
 
 .item img {
-  filter:grayscale(100%) contrast(2);
-  width: 100%;
+width: 100%;
 
 }
 .item img:hover {
@@ -163,8 +165,29 @@ a {
   display: none;
 }
 
+.Contact {
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 50px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1400px;
+  height: 800px;
+  color: red;
+  text-align: center;
+}
 
-
+.DPUB {
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 50px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1400px;
+  height: 800px;
+  color: red;
+  text-align: center;
+}
 
 
 
