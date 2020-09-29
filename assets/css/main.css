@@ -17,13 +17,14 @@ a {
 .title {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 150px;
-	padding: 10px;
+	padding: 40px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 1400px;
 	height: 800px;
 	color: red;
 	text-align: center;
+  z-index: 9999;
 	}
 
   .nav {
@@ -33,18 +34,19 @@ a {
   top: 20px; 
   left: 500px;
   width: 100%;
-  z-index: 9999;
+  text-align: center;
+  display: inline-block;
+  
 
  }
 
  .btn {
-  
   border: 1px red;
   color: red;
   padding: 10px 24px;
   cursor: pointer;
   width: 50%;
-  display: block;
+  display: inline-block;
  }
 
  .btn:hover {
@@ -135,13 +137,6 @@ a {
   flex-wrap:wrap;
   justify-content: space-around;
 }
-
-.btn {
-  border:1px solid black;
-  padding:10px;
-  border-radius: 10px;
-}
-
 
 .container {
   display: flex;

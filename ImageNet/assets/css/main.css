@@ -20,7 +20,7 @@ body {
    border: 1px solid black;
    padding: 10px;
    margin:10px;
-   border-radius:10px;
+   border-radius:20px;
  }
 
  .btn:hover {
@@ -133,7 +133,7 @@ body {
 .btn {
   border:1px solid black;
   padding:10px;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 
