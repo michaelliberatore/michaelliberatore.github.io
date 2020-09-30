@@ -163,7 +163,6 @@ width: 100%;
 .Contact {
   font-family: Helvetica,Arial,sans-serif;
   font-size: 50px;
-  padding: 10px;
   margin-left: auto;
   margin-right: auto;
   width: 1400px;
@@ -174,7 +173,7 @@ width: 100%;
 
 .DPUB {
   font-family: Helvetica,Arial,sans-serif;
-  font-size: 50px;
+  font-size: 100px;
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
