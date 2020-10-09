@@ -31,7 +31,7 @@ body {
  }
 
  .title {
-  font-size: 120px;
+  font-size: 140px;
   font-family: Baskerville;
   text-align: center;
   color: Orange; 
@@ -161,4 +161,36 @@ body {
 
 .item.hide{
   display: none;
+}
+
+.desktop {
+    display: block
+  }
+
+@media (max-width: 400px) {
+
+  .title {
+    font-size: 40px;
+    margin-top: 100px;
+
+  }
+
+  .item {
+    width: 90%;
+    padding: 1px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+
+  .button {
+    display: none;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+
+  
+
 }
