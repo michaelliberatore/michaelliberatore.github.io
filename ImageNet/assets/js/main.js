@@ -34,4 +34,8 @@ $(document).ready(function(){
 
 	});
 
+	$('.btn-reset').click(function(){
+	    $('.item').removeClass('hide');
+	});
+
 });
