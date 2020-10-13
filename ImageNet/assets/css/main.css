@@ -1,6 +1,7 @@
 body {
 	font-family: futura, serif;
-	font-size: 30px;
+	font-size: 35px;
+  text-align: center;
   color: orange;
 	background-color: lightblue;
 }
@@ -80,14 +81,6 @@ body {
   transition:2s;
 }
 
-.box {
-  width:150px;
-  height:150px;
-  margin:10px;
-  background-color:red;
-  transition:2s;
-}
-
 .slide {
   width:34%;
   font-family: futura, serif;
@@ -137,7 +130,7 @@ body {
 .btn {
   border:1px solid black;
   padding:10px;
-  border-radius: 20px;
+  border-radius:10px 10px 10px 10px;
 }
 
 
