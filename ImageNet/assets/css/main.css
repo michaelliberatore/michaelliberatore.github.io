@@ -204,11 +204,28 @@ body {
     padding-top: 10px;
     font-size: 18px;
   }
+
   .item {
     width: 100%;
     padding-left: 10px;
     padding-right: 10px;
+    font-size: 30px;
 
+  }
+
+  .btn-slide {
+  font-size: 25px; 
+  }
+
+  .slide {
+  font-size: 10.6px;
+  text-align: left;
+  padding-top: 10px;
+  bottom: 100px;
+  }
+
+  .footer {
+  font-size: 20px; 
   }
 
 
