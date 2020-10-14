@@ -183,30 +183,33 @@ body {
     display: block
   }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
+
+  .btn {
+  display: none;
+  }
 
   .title {
-    font-size: 40px;
-    margin-top: 100px;
-
+  font-size: 60px;
+  font-family: 'Lyon Display',sans-serif;
+  text-align: center;
+  color: Orange;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  animation: colorchange 3s infinite;
   }
 
+  .INTRODUCTION {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+  }
   .item {
-    width: 90%;
-    padding: 1px;
-    margin-bottom: 10px;
-    margin-left: 20px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+
   }
 
-  .button {
-    display: none;
-  }
-
-  .desktop {
-    display: none;
-  }
-
-
-  
 
 }
