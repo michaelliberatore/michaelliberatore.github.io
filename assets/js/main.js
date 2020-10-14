@@ -28,4 +28,8 @@ $(document).ready(function(){
 		$('.item.Personal').removeClass('hide')
 	});
 
+	$('.btn-reset').click(function(){
+	    $('.item').removeClass('hide');
+	});
+
 	});
