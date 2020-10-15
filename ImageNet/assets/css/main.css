@@ -45,14 +45,14 @@ body {
   color: darkorange; 
   margin-top: 12.22vh;
   padding-bottom: 10px;
-  animation: colorchange 4s infinite;
+  animation: colorchange 3s infinite;
 }
   @keyframes colorchange {
     0% {
-       color: Blue;
+       color: darkorange;
     }
     100% {
-       color: darkorange;
+       color: Blue;
     }
   } 
  }
