@@ -1,6 +1,6 @@
 .body {
 	font-family: Helvetica,Arial,sans-serif;
-	font-size: 40px;
+	font-size: 45px;
 	padding-left: 10px;
 	color: red;
 	text-align: center;
@@ -21,7 +21,7 @@
 }
 
 a {
-	color:white;
+	color:red;
 	
 	width: 1400px;
 	height: 1000px;
@@ -174,26 +174,24 @@ width: 100%;
 
 .Contact {
   font-family: Helvetica,Arial,sans-serif;
-  font-size: 70px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1400px;
-  height: 300px;
-  color: white;
-  background-color: red;
+  font-size: 40px;
+  padding-left: 10px;
+  padding-top: 60px;
+  color: red;
   text-align: center;
+  position: relative;
+  bottom: 200px;
 }
 
 .DPUB {
   font-family: Helvetica,Arial,sans-serif;
   font-size: 70px;
-  padding: 10px;
+  padding-bottom: 100px;
   margin-left: auto;
   margin-right: auto;
   width: 1400px;
-  height: 190px;
-  color: white;
-  background-color: red;
+  height: 50px;
+  color: red;
   text-align: center;
 }
 
