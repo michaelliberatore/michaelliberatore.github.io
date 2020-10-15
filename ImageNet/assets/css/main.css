@@ -215,6 +215,7 @@ body {
 
   .btn-slide {
   font-size: 25px; 
+  text-align: center;
   }
 
   .slide {
@@ -226,6 +227,7 @@ body {
 
   .footer {
   font-size: 20px; 
+  text-align: center;
   }
 
 
