@@ -9,6 +9,7 @@
 
 }
 
+
 a {
 	color:red;
 	
@@ -46,7 +47,7 @@ a {
   color: red;
   padding: 10px 24px;
   cursor: pointer;
-  width: 30%;
+  width: 20%;
   display: inline-block;
  }
 
@@ -62,7 +63,7 @@ a {
   justify-content:flex-end;
   flex-direction: row-reverse;
   align-items: flex-end;
-  padding-top: 20px;
+  padding-top: 50px;
 
  }
 
@@ -95,29 +96,11 @@ a {
   transition:2s;
 }
 
-.slide {
-  width:34%;
-  height: 50vh;
-  padding:20px;
-  background-color: orange;
-  position:fixed;
-  top:340px;
-  right:0px;
-  margin-right: 500%;
-  z-index: 9999
-}
-
   .box.active {
     background-color: blue;
     transition:2s;
   }
 
-
-.slide.active {
-  margin-right: 0;
-  transition:2s;
-  color: blue;
-}
 .alert {
   width:200px;
   padding:20px;
@@ -163,13 +146,14 @@ width: 100%;
 
 .Contact {
   font-family: Helvetica,Arial,sans-serif;
-  font-size: 40px;
-  padding-left: 10px;
-  padding-top: 60px;
+  font-size: 45px;
+  padding-left: 400px;
+  padding-top: 40px;
+  padding-bottom: 90px;
   color: red;
   text-align: center;
   position: relative;
-  bottom: 200px;
+  bottom: 190px;
 }
 
 .DPUB {
