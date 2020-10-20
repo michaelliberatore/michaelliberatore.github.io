@@ -1,11 +1,12 @@
-.body {
+body {
 	font-family: Helvetica,Arial,sans-serif;
-	font-size: 45px;
+	font-size: 25px;
 	padding-left: 10px;
 	color: red;
-	text-align: center;
+	text-align: left;
 	position: relative;
 	bottom: 200px;
+  background-color: gold;
 
 }
 
@@ -20,7 +21,7 @@ a {
   .title {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 200px;
-	padding: 80px;
+	padding-top: 300px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 1400px;
@@ -30,20 +31,31 @@ a {
   z-index: 9999;
 	}
 
+  .body {
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 35px;
+  padding-left: 10px;
+  padding-top: 300px;
+  color: red;
+  text-align: center;
+  position: relative;
+  bottom: 200px;
+  }
+
   .nav {
   justify-content:flex-start;
-  background-color: white;
+  background-color: gold;
   top: 20px; 
   left: 500px;
   width: 100%;
   text-align: center;
   display: inline-block;
-  
+
 
  }
 
  .btn {
-  border: 1px red;
+  border: 3px red;
   color: red;
   padding: 10px 24px;
   cursor: pointer;
@@ -53,7 +65,7 @@ a {
 
  .btn:hover {
  	background-color: red;
- 	color: white;
+ 	color: gold;
  	cursor: pointer;
  }
 
@@ -64,14 +76,16 @@ a {
   flex-direction: row-reverse;
   align-items: flex-end;
   padding-top: 50px;
+  text-align: left;
+  background-color: gold;
 
  }
 
  .item {
-  width: 100%;
-  padding: 10px;
+  width: 50%;
+  padding: 20px;
   text-align: center;
-  background-color: white;
+  background-color: gold;
  
  }
 
@@ -80,6 +94,7 @@ a {
  	display: block;
  	margin: auto;
  	padding-bottom: 160px;
+  background-color: gold;
  }
 
 .smile:hover {
@@ -92,8 +107,11 @@ a {
   width:150px;
   height:150px;
   margin:10px;
-  background-color:red;
+  background-color:gold;
   transition:2s;
+  display: inline-block;
+  text-align: left;
+  padding-top: 
 }
 
   .box.active {
