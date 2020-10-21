@@ -78,7 +78,7 @@ a {
  }
 
  .container {
-  display: flex;
+  display: inline-block;
   flex-wrap:wrap;
   justify-content:flex-end;
   flex-direction: row-reverse;
@@ -101,7 +101,7 @@ a {
  	max-width: 100%;
  	display: block;
  	margin: auto;
- 	padding-bottom: 160px;
+ 	padding-bottom: 120px;
   background-color: gold;
  }
 
@@ -155,7 +155,7 @@ a {
 
 .item {
   width:50%;
-  top: 10px;
+  top: 0px;
 }
 
 .item img {
