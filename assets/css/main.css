@@ -194,6 +194,32 @@ width: 100%;
   text-align: center;
 }
 
+.desktop {
+  display: block;
+}
+
+@media (max-height: 500px) {
+
+   .btn {
+  display: none;
+  }
+
+  .title {
+    font-size: 40px;
+  }
+
+.item {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 25px;
+
+  }
+
+
+
+}
+
 
 
 
