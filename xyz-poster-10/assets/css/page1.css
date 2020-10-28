@@ -1,0 +1,39 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 60px;
+	text-align: center;
+	color:gold;
+	background-color:red;
+}
+
+.date {
+	font-family: times;
+	font-style: bold;
+	font-size:120px;
+	text-align:center;
+	color:gold;
+	background-color:red;
+	}
+
+	.title {
+		text-transform: uppercase;
+
+	}
+
+	.MADA {
+		font-family: times;
+		color: gold;
+	}
+
+	.message {
+background-color: gold;
+color: red;
+font-size:100px;
+padding: 10px
+
+	}
+
+
+
+ 
+
