@@ -1,0 +1,44 @@
+
+
+.top {
+	font-size: 140px;
+	font-family:helvetica;
+	text-align: right;
+	color: red;
+	background-color: gold
+
+}
+
+.bottom {
+	font-family:baskerville;
+	font-size: 100px;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	background-color:red;
+	color: gold;
+	width: 100%;
+	text-align: center;
+}
+
+.message {
+	text-align: left;
+	color: gold;
+	font-family: baskerville;
+	font-size: 50px;
+	width: 300px;
+	height: 280px;
+	background-color: red;
+	position: fixed;
+	top: 10px;
+}
+.text {
+	font-family:helvetica;
+	font-size: 100px;
+	text-align:center;
+	color: red;
+	background-color: gold
+
+
+}
+

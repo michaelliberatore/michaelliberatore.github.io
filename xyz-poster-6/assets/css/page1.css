@@ -1,0 +1,74 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 250px;
+	text-align: center;
+	color: red;
+background:linear-gradient( to left, red 48%, gold 52% );	
+	animation: colorchange 3s infinite;
+}
+	@keyframes colorchange {
+		0% {
+       color: white;
+		}
+		100% {
+       color: red;
+		}
+	} 
+
+a {
+	color:red;
+}
+}
+.message1 {
+color: red;
+font-size: 50px;
+text-align: left;
+
+}
+.message2 {
+	color: red;
+	font-size: 200px;
+	animation: colorchange 3s infinite;
+	text-align: left;
+		}
+	@keyframes colorchange {
+		0% {
+       color: white;
+		}
+		100% {
+       color: red;
+		}
+
+	} 
+.message3 {
+	color: red;
+	font-size:100px;
+	text-align: right;
+	margin-bottom: 20px;
+	padding: 10px;
+	animation: colorchange 3s infinite;
+}
+@keyframes colorchange {
+	0% {
+		color: red;
+		}
+		100% {
+			color: white;
+		}
+}
+
+.message4 {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 50px;
+	text-align: center;
+	color:red;
+	animation: colorchange 3s infinite;
+}
+@keyframes colorchange {
+	0% {
+		color: red;
+		}
+		100% {
+			color: white;
+		}
+	{

@@ -1,0 +1,41 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 60px;
+	text-align: center;
+	background-color: gold
+}
+
+a {
+	color:red;
+}
+
+.date {
+	font-family: cooper;
+	font-size: 200px;
+	text-align: center;
+	color: red;
+	
+}
+.title {
+	text-transform: uppercase;
+	font-family: cooper;
+	color: red;
+}
+.MADA {
+	font-family: Georgia;
+	color: gold;
+	animation: pulse 3s ease infinite alternate;
+}
+@keyframes pulse {
+	0%, 100% {
+		background-color: red;
+	}
+	50% {
+		background-color: white;
+	}
+}
+.message {
+	color: red;
+	font-family: Georgia;
+	font-size: 100px;
+}
