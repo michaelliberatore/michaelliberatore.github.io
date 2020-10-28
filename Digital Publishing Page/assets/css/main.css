@@ -18,14 +18,14 @@ height: 1000px;
 
 .Title {
 font-family: Helvetica,Arial,sans-serif;
-font-size: 150px;
-padding-top: 250px;
+font-size: 200px;
+padding-top: 240px;
 margin-left: auto;
 margin-right: auto;
 width: 1400px;
 height: 800px;
 color: red;
-text-align: center;
+text-align: left;
 z-index: 9999;
 padding-bottom: 10px;
 }
@@ -33,7 +33,7 @@ padding-bottom: 10px;
 .DPUB {
 font-family: Helvetica,Arial,sans-serif;
 font-size: 100px;
-padding-bottom: 980px;
+padding-bottom: 990px;
 margin-left: auto;
 margin-right: auto;
 width: 1400px;
