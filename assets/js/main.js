@@ -23,6 +23,11 @@ $(document).ready(function(){
 		$('.item.Print').removeClass('hide')
 	});
 
+	$('.btn-Publications').click(function(){
+		$('.item').addClass('hide');
+		$('.item.Publications').removeClass('hide')
+	});
+
 	$('.btn-Personal').click(function(){
 		$('.item').addClass('hide');
 		$('.item.Personal').removeClass('hide')
