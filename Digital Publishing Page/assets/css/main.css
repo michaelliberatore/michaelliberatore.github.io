@@ -30,11 +30,35 @@ z-index: 9999;
 padding-bottom: 10px;
 }
 
-.DPUB {
+.XYZ {
 font-family: Helvetica,Arial,sans-serif;
-font-size: 70px;
-padding-top: 240px;
+font-size: 100px;
+padding-top: 210px;
 padding-bottom: 990px;
+margin-left: auto;
+margin-right: auto;
+width: 1400px;
+height: 50px;
+color: gold;
+text-align: left;
+}
+
+.ImageNet {
+font-family: Helvetica,Arial,sans-serif;
+font-size: 100px;
+padding-top: 100px;
+margin-left: auto;
+margin-right: auto;
+width: 1400px;
+height: 50px;
+color: gold;
+text-align: left;
+}
+
+.NAB {
+font-family: Helvetica,Arial,sans-serif;
+font-size: 100px;
+padding-top: 180px;
 margin-left: auto;
 margin-right: auto;
 width: 1400px;
