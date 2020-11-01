@@ -1,0 +1,61 @@
+body {
+background-color: black;
+color: white;
+font-size: 40px;
+line-height: 42px;
+}
+
+h1 {
+font-size: 33vw;
+line-height: 33vw;
+letter-spacing: -16px;
+text-align: right;
+margin-top: 5vw;
+font-family: alternate-gothic-compressed, sans-serif;
+}
+
+h2 {
+font-size: 80px;
+line-height: 75px;
+font-family: alternate-gothic-compressed, sans-serif;
+}
+
+
+h3 {
+font-size: 60px;
+line-height: 62px;
+}
+
+p {
+font-size: 40px;
+line-height: 42px
+}
+
+.footnote p {
+font-size: 18px;
+line-height: 20px;
+width:50%;
+color: gray;
+font-family: arial;
+margin-bottom: 20px;
+}
+
+.text p {
+text-indent: 200px;
+
+}
+
+p.noindent {
+text-indent: 0px;
+
+}
+
+.container {
+display: flex;
+flex-wrap:wrap;
+margin-top: 200px;
+}
+
+.w1of2 {
+	width: 50%;
+}
