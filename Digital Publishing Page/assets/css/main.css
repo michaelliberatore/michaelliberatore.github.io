@@ -93,7 +93,8 @@ display: block
 
 .Title {
 font-family: Helvetica,Arial,sans-serif;
-font-size: 50px;
+font-size: 30px;
+animation: none;
 padding-top: 240px;
 height: 800px;
 color: gold;
@@ -110,7 +111,6 @@ width: 400px;
 height: 600px;
 text-align: left;
 z-index: 9999;
-padding-bottom: 10px;
 }
 
 .btn-slide {
