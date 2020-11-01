@@ -6,7 +6,7 @@ color: red;
 text-align: left;
 position: relative;
 bottom: 200px;
-background-color: red;
+background:linear-gradient( to top, orange 15%, yellow 25%, gold 45%, orange 65%);
 }
 
 a {
@@ -18,25 +18,16 @@ height: 1000px;
 
 .Title {
 font-family: Helvetica,Arial,sans-serif;
-font-size: 100px;
+font-size: 170px;
+color:red;
 padding-top: 240px;
 margin-left: auto;
 margin-right: auto;
 width: 1400px;
 height: 800px;
-color: gold;
 text-align: center;
 z-index: 9999;
 padding-bottom: 10px;
-animation: pulse 5s infinite alternate;
-}
-@keyframes pulse {
-	0%, 100% {
-		color: red;
-	}
-	50% {
-		color: white;
-	}
 }
 
 .DPUB {
@@ -50,12 +41,21 @@ width: 1100px;
 height: 1100px;
 background-color: gold;
 text-align: center;
+animation: pulse 6s infinite alternate;
+}
+@keyframes pulse {
+	0%, 100% {
+		background-color: yellow;
+	}
+	50% {
+		background-color: white;
+	}
 }
 
 .btn-slide {
 text-align: left;
 padding-left: 120px;
-color: gold;
+color: red;
 padding-top: 20px;
 font-size: 40px;
 }
@@ -85,6 +85,29 @@ transition:2s;
 color: gold;
 }
 
+.desktop {
+  display: block;
+}
 
+@media (max-width: 500px) {
 
+.Title {
+font-family: Helvetica,Arial,sans-serif;
+font-size: 55px;
+color: red;
+padding-top: 240px;
+text-align: left;
+}
 
+.DPUB {
+font-family: Helvetica,Arial,sans-serif;
+font-size: 40px;
+padding-top: 20px;
+text-align: left;
+}
+
+.btn-slide {
+display: none;
+}
+
+}
