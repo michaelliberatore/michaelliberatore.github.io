@@ -32,10 +32,10 @@ animation: pulse 5s infinite alternate;
 }
 @keyframes pulse {
 	0%, 100% {
-		background-color: red;
+		color: red;
 	}
 	50% {
-		background-color: white;
+		color: white;
 	}
 }
 
