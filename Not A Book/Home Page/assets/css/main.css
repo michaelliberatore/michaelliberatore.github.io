@@ -1,9 +1,21 @@
-body {
-	font-family: Helvetica,Arial,sans-serif;
-	font-size: 32px;
+body {background-color: black}
+p {
+	padding-bottom: 20px;
+	padding-top: 20px
+}
+
+.Title {
+font-family: 'NeueHaasGrotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 240px;
+font-weight: 600;
+letter-spacing: 0;
+line-height: 1;
+text-align: center;
+background-color: black;
+color: white;
+padding-bottom: 10px;
 }
 
 a {
-	color:red;
+	color: white;
 }
-
