@@ -63,9 +63,7 @@ body {
   justify-content:flex-end;
   flex-direction: row-reverse;
   align-items: flex-end;
-
-
- }
+}
 
  .item {
   width: 50%;

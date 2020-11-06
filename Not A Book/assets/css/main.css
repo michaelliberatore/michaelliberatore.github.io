@@ -1,12 +1,19 @@
 body {background-color: black}
 p {
-	padding-bottom: 20px;
-	padding-top: 20px
+padding-bottom: 20px;
+padding-top: 20px
 }
 
-.Title {
+a {
+color:white;
+	
+width: 1400px;
+height: 1000px;
+}
+
+h1 {
 font-family: 'NeueHaasGrotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-font-size: 240px;
+font-size: 230px;
 font-weight: 600;
 letter-spacing: 0;
 line-height: 1;
@@ -16,7 +23,7 @@ color: white;
 padding-bottom: 10px;
 }
 
-.headline {
+h2 {
 font-family: 'NeueHaasGrotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 -webkit-font-smoothing: antialiased;
 -webkit-text-stroke: 1px white;
@@ -32,7 +39,7 @@ padding-top: 20px;
 
 .about {
 font-family: 'NeueHaasGrotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-font-size: 200px;
+font-size: 230px;
 font-weight: 600;
 letter-spacing: 0;
 line-height: 1;
@@ -42,7 +49,24 @@ color: white;
 padding-bottom: 10px;	
 }
 
-.Introduction {
+.container {
+width: 100vw;
+height: 100vw;
+display: flex;
+flex-wrap: wrap;
+align-content: : flex-end;
+justify-content: center;
+}
+
+
+.item img {
+max-width: 100%;
+display: block;
+margin: auto;
+padding-bottom: 10px;
+}
+
+h3 {
 font-family: 'NeueHaasGrotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 -webkit-font-smoothing: antialiased;
 font-size: 40px;
@@ -57,13 +81,13 @@ padding-top: 20px;
 
 .interview {
 font-family: 'NeueHaasGrotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-font-size: 200px;
+font-size: 230px;
 font-weight: 600;
 letter-spacing: 0;
 line-height: 1;
 text-align: center;
-background-color: black;
 color: white;
+padding-top: 100px;
 padding-bottom: 10px;
 }
 
@@ -80,9 +104,22 @@ color: white;
 padding-top: 20px;
 }
 
+.question {
+font-family: 'NeueHaasGrotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+-webkit-font-smoothing: antialiased;
+font-size: 40px;
+-webkit-text-stroke: 0.9px white;
+line-height: 1;
+margin-left: 5px;
+text-align: left;
+background-color: black;
+color: black;
+padding-top: 20px;
+}
+
 .end {
 font-family: 'NeueHaasGrotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-font-size: 200px;
+font-size: 230px;
 font-weight: 600;
 letter-spacing: 0;
 line-height: 1;
@@ -90,5 +127,16 @@ text-align: center;
 background-color: black;
 color: white;
 padding-bottom: 10px;
+}
+
+.footer {
+font-family: 'NeueHaasGrotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+-webkit-font-smoothing: antialiased;
+font-size: 20px;
+line-height: 14px;
+margin-left: 5px;
+text-align: left;
+color: white;
+padding-top: 20px;
 }
 
