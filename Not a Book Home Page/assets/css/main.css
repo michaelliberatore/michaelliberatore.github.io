@@ -52,5 +52,5 @@ transition:2s;
 .slide.active {
 margin-right: 0;
 transition:2s;
-color: black;
+	color: black;
 }
