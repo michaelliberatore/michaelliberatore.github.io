@@ -19,3 +19,37 @@ padding-bottom: 10px;
 a {
 	color: white;
 }
+
+
+.btn-slide {
+text-align: left;
+padding-left: 120px;
+color: red;
+padding-top: 20px;
+font-size: 40px;
+}
+
+.slide {
+width:35%;
+font-family: Helvetica,Arial,sans-serif;
+font-size: 25px;
+height: 380vh;
+padding:20px;
+background-color: red;
+position:fixed;
+top:0px;
+right:0px;
+margin-right: 500%;
+z-index: 9999
+}
+
+.box.active {
+background-color: gold;
+transition:2s;
+}
+
+.slide.active {
+margin-right: 0;
+transition:2s;
+color: gold;
+}
