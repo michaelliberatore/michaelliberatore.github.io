@@ -54,7 +54,7 @@ animation: pulse 6s infinite alternate;
 
 .btn-slide {
 text-align: center;
-padding-left: 120px;
+font-weight: bold;
 color: red;
 padding-top: 20px;
 font-size: 30px;
