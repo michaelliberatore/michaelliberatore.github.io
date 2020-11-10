@@ -53,11 +53,11 @@ animation: pulse 6s infinite alternate;
 }
 
 .btn-slide {
-text-align: left;
+text-align: center;
 padding-left: 120px;
 color: red;
 padding-top: 20px;
-font-size: 40px;
+font-size: 30px;
 }
 
 .slide {
