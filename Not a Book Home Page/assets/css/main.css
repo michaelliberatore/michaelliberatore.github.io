@@ -6,7 +6,7 @@ p {
 
 .Title {
 font-family: 'NeueHaasGrotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-font-size: 190px;
+font-size: 170px;
 font-weight: 600;
 letter-spacing: 0;
 line-height: 1;
@@ -22,20 +22,21 @@ a {
 
 
 .btn-slide {
-text-align: left;
-padding-left: 120px;
-color: red;
+font-family: 'NeueHaasGrotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+text-align: center;
+font-weight: bold;
+color: white;
 padding-top: 20px;
-font-size: 40px;
+font-size: 30px;
 }
 
 .slide {
 width:35%;
-font-family: Helvetica,Arial,sans-serif;
+font-family: 'NeueHaasGrotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 font-size: 25px;
 height: 380vh;
 padding:20px;
-background-color: red;
+background-color: white;
 position:fixed;
 top:0px;
 right:0px;
@@ -44,12 +45,12 @@ z-index: 9999
 }
 
 .box.active {
-background-color: gold;
+background-color: white;
 transition:2s;
 }
 
 .slide.active {
 margin-right: 0;
 transition:2s;
-color: gold;
+color: black;
 }
