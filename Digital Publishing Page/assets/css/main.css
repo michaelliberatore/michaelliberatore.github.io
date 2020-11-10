@@ -93,19 +93,22 @@ color: gold;
 
 .Title {
 font-family: Helvetica,Arial,sans-serif;
-font-size: 25px;
+font-size: 74px;
 font-weight: bold;
 color: red;
 padding-top: 240px;
 text-align: left;
-padding-right: 20px;
+padding-left: 10px;
 }
 
 .DPUB {
 font-family: Helvetica,Arial,sans-serif;
-font-size: 40px;
-padding-top: 20px;
+font-size: 54px;
 text-align: left;
+padding-top: 20px;
+animation: none;
+background:linear-gradient( to top, orange 15%, yellow 25%, gold 45%, orange 65%);
+padding-left: 10px;
 }
 
 .btn-slide {
