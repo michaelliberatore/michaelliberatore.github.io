@@ -24,8 +24,8 @@ a {
 .btn-slide {
 font-family: 'NeueHaasGrotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 text-align: center;
-font-weight: bold;
-color: white;
+-webkit-text-stroke: 0.4px white;
+color: black;
 padding-top: 20px;
 font-size: 30px;
 }
