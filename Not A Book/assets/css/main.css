@@ -21,6 +21,7 @@ text-align: center;
 background-color: black;
 color: white;
 padding-bottom: 10px;
+padding-left: 20px;
 }
 
 h2 {
@@ -35,6 +36,7 @@ text-align: center;
 background-color: black;
 color: black;
 padding-top: 20px;
+padding-left: 20px;
 }
 
 img {
@@ -57,7 +59,8 @@ line-height: 1;
 text-align: center;
 background-color: black;
 color: white;
-padding-bottom: 10px;	
+padding-bottom: 10px;
+padding-left: 20px;
 }
 
 .caption {
@@ -72,6 +75,7 @@ text-align: center;
 background-color: black;
 color: black;
 padding-top: 20px;
+padding-left: 20px;
 }
 
 
@@ -86,6 +90,7 @@ text-align: left;
 background-color: black;
 color: white;
 padding-top: 20px;
+padding-left: 20px;
 }
 
 .interview {
@@ -98,6 +103,7 @@ text-align: center;
 color: white;
 padding-top: 40px;
 padding-bottom: 20px;
+padding-left: 20px;
 }
 
 .body {
@@ -122,6 +128,7 @@ text-align: left;
 background-color: black;
 color: black;
 padding-top: 20px;
+padding-left: 20px;
 }
 
 .end {
@@ -135,6 +142,7 @@ background-color: black;
 color: white;
 padding-top: 40px;
 padding-bottom: 20px;
+padding-left: 20px;
 }
 
 .footer {
@@ -146,5 +154,6 @@ margin-left: 5px;
 text-align: left;
 color: white;
 padding-top: 20px;
+padding-left: 20px;
 }
 
