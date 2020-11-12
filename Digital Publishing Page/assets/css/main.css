@@ -6,7 +6,7 @@ color: red;
 text-align: left;
 position: relative;
 bottom: 200px;
-background:linear-gradient( to top, orange 15%, yellow 25%, gold 45%, orange 65%);
+background-color: gold;
 }
 
 a {
@@ -38,14 +38,14 @@ padding-bottom: 990px;
 margin-left: auto;
 margin-right: auto;
 width: 1100px;
-height: 1100px;
+height: 1000px;
 background-color: gold;
 text-align: center;
 animation: pulse 6s infinite alternate;
 }
 @keyframes pulse {
 	0%, 100% {
-		background-color: yellow;
+		background-color: orange;
 	}
 	50% {
 		background-color: white;
@@ -53,9 +53,10 @@ animation: pulse 6s infinite alternate;
 }
 
 .btn-slide {
-text-align: center;
+text-align: left;
+padding-left: 120px;
 -webkit-text-stroke: 1px red;
-color: orange;
+color: gold;
 padding-top: 20px;
 font-size: 45px;
 }
@@ -85,6 +86,14 @@ transition:2s;
 color: gold;
 }
 
+.footer {
+text-align: left;
+padding-left: 120px;
+font-size: 35px;
+font-weight: bold;
+font-family: Helvetica,Arial,sans-serif; 
+}
+
 .desktop {
   display: block;
 }
@@ -107,12 +116,22 @@ font-size: 54px;
 text-align: left;
 padding-top: 20px;
 animation: none;
-background:linear-gradient( to top, orange 15%, yellow 25%, gold 45%, orange 65%);
+background-color: gold;
 padding-left: 10px;
+padding-bottom: 20px;
 }
 
 .btn-slide {
 display: none;
+}
+
+.footer {
+text-align: left;
+padding-left: 20px;
+top: 40px;
+font-size: 52px;
+font-weight: bold;
+font-family: Helvetica,Arial,sans-serif; 
 }
 
 }
