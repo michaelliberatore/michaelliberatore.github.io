@@ -107,7 +107,7 @@ body {
 .slide.active {
 margin-right: 0;
 transition:2s;
-color: blue;
+color: #FFFAF0;
 }
 .alert {
 width:200px;
@@ -163,6 +163,8 @@ border-radius: 5px 5px 5px 5px;
   text-align: left;
   padding-top: 20px;
   font-size: 30px;
+  background-color: 
+  height:50px;
 }
 
 .slide {
@@ -173,6 +175,9 @@ border-radius: 5px 5px 5px 5px;
 .footer {
   text-align: left;
   font-size: 20px;
+  background-color: #DC143C ;
+  color: white;
+  height: 50px;
 }
 
 .desktop {
@@ -212,6 +217,9 @@ border-radius: 5px 5px 5px 5px;
   .btn-slide {
   font-size: 25px; 
   text-align: center;
+    background-color: #DC143C ;
+  color: white;
+  height: 50px;
   }
 
   .slide {
