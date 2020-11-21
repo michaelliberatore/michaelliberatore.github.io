@@ -6,7 +6,7 @@ p {
 
 .Title {
 font-family: 'NeueHaasGrotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-font-size: 170vw;
+font-size: 13vw;
 font-weight: 600;
 letter-spacing: 0;
 line-height: 1;
@@ -27,7 +27,7 @@ text-align: center;
 -webkit-text-stroke: 0.4px white;
 color: black;
 padding-top: 20px;
-font-size: 30vw;
+font-size: 2vw;
 }
 
 .slide {
