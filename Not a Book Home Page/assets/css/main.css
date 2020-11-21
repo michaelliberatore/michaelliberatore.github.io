@@ -54,3 +54,16 @@ margin-right: 0;
 transition:2s;
 	color: black;
 }
+
+.footer {
+font-family: 'NeueHaasGrotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+-webkit-font-smoothing: antialiased;
+font-size: 25px;
+line-height: 35px;
+color: black;
+-webkit-text-stroke: 0.1px white;
+text-align: left;
+padding-left: 20px;
+padding-bottom: 20px;
+padding-top: 20px;
+}
