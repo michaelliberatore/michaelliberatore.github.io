@@ -1,51 +1,54 @@
 body {
-	font-family: 'Lyon Display',sans-serif;
-	font-size: 35px;
-  text-align: center;
-  color: #DC143C;
-	background-color: #FFFAF0;
+font-family: 'Lyon Display',sans-serif;
+font-size: 35px;
+text-align: center;
+color: #DC143C;
+background-color: #FFFAF0;
 }
 
- .nav {
-  display:flex;
-  justify-content:flex-start;
-  top: 20px; 
-  left: 500px;
-  width: 100%;
-  background-color: #FFFAF0;
-  z-index: 9999;
-
- }
-
- .INTRODUCTION {
-  text-align: center;
-  padding-top: 20px;
-  font-size: 30px;
-  color: #DC143C;
- }
-
- .btn {
-  padding: 20px;
-  margin:10px;
-  border-radius:20px;
- }
-
- .btn:hover {
- 	background-color: #DC143C;
- 	color: #FFFAF0;
- 	cursor: pointer;
- }
-
- .title {
-  font-size: 140px;
-  font-family: 'Lyon Display',sans-serif;
-  text-align: center;
-  color: #DC143C; 
-  margin-top: 12.22vh;
-  padding-bottom: 10px;
-  animation: colorchange 3s infinite;
+a {
+color:#FFFAF0;
 }
-  @keyframes colorchange {
+
+.nav {
+display:flex;
+justify-content:flex-start;
+top: 20px; 
+left: 500px;
+width: 100%;
+background-color: #FFFAF0;
+z-index: 9999;
+}
+
+.INTRODUCTION {
+text-align: center;
+padding-top: 20px;
+font-size: 30px;
+color: #DC143C;
+}
+
+.btn {
+padding: 20px;
+margin:10px;
+border-radius:20px;
+}
+
+.btn:hover {
+background-color: #DC143C;
+color: #FFFAF0;
+cursor: pointer;
+}
+
+.title {
+font-size: 140px;
+font-family: 'Lyon Display',sans-serif;
+text-align: center;
+color: #DC143C; 
+margin-top: 12.22vh;
+padding-bottom: 10px;
+animation: colorchange 3s infinite;
+}
+@keyframes colorchange {
     0% {
        color: #DC143C;
     }
@@ -55,54 +58,52 @@ body {
   } 
  }
 
- .container {
-  display: flex;
-  flex-wrap:wrap;
-  justify-content:flex-end;
-  flex-direction: row-reverse;
-  align-items: flex-end;
+.container {
+display: flex;
+flex-wrap:wrap;
+justify-content:flex-end;
+flex-direction: row-reverse;
+align-items: flex-end;
 }
 
- .item {
-  width: 50%;
-  padding: 20px;
-  text-align: center;
-  background-color: #FFFAF0;
- 
- }
+.item {
+width: 50%;
+padding: 20px;
+text-align: center;
+background-color: #FFFAF0;
+}
 
- .item img {
- 	max-width: 100%;
- 	display: block;
- 	margin: auto;
- 	padding-bottom: 20px;
- }
+.item img {
+max-width: 100%;
+display: block;
+margin: auto;
+padding-bottom: 20px;
+}
 
 .smile:hover {
-  width: 300px;
-  background-color: #DC143C;
-  transition:2s;
+width: 300px;
+background-color: #DC143C;
+transition:2s;
 }
 
 .slide {
-  width:34%;
-  font-family: 'Lyon Display',sans-serif;
-  font-size: 20px;
-  height: 380vh;
-  padding:20px;
-  background-color: #DC143C;
-  position:fixed;
-  top:0px;
-  right:0px;
-  margin-right: 500%;
-  z-index: 9999
+width:34%;
+font-family: 'Lyon Display',sans-serif;
+font-size: 20px;
+height: 380vh;
+padding:20px;
+background-color: #DC143C;
+position:fixed;
+top:0px;
+right:0px;
+margin-right: 500%;
+z-index: 9999
 }
 
-  .box.active {
-  background-color: #DC143C;
-  transition:2s;
-  }
-
+.box.active {
+background-color: #DC143C;
+transition:2s;
+}
 
 .slide.active {
 margin-right: 0;
@@ -137,102 +138,100 @@ border-radius: 5px 5px 5px 5px;
 
 
 .container {
-  display: flex;
-  flex-wrap:wrap;
-  padding-top: 20px;
+display: flex;
+flex-wrap:wrap;
+padding-top: 20px;
 }
 
 .item {
-  width:33%;
+width:33%;
 }
 
 .item img {
-  filter:grayscale(100%) contrast(2);
-  width: 100%;
+filter:grayscale(100%) contrast(2);
+width: 100%;
 
 }
 .item img:hover {
-  filter:grayscale(0%) contrast(1);
+filter:grayscale(0%) contrast(1);
 }
 
 .item.hide{
-  display: none;
+display: none;
 }
 
 .btn-slide {
-  text-align: left;
-  padding-top: 20px;
-  font-size: 30px;
-  background-color: 
-  height:50px;
+text-align: left;
+padding-top: 20px;
+font-size: 30px;
+background-color: 
+height:50px;
 }
 
 .slide {
-  text-align: left;
-  padding-top: 10px;
+text-align: left;
+padding-top: 10px;
 }
 
 .footer {
-  text-align: left;
-  font-size: 20px;
-  background-color: #DC143C ;
-  color: white;
-  height: 50px;
+text-align: left;
+font-size: 20px;
+background-color: #DC143C ;
+color: white;
+height: 50px;
 }
 
 .desktop {
-    display: block
-  }
+display: block
+}
 
 @media (max-width: 500px) {
 
-  .btn {
-  display: none;
-  }
+.btn {
+display: none;
+}
 
-  .title {
-  font-size: 60px;
-  font-family: 'Lyon Display',sans-serif;
-  text-align: center;
-  color: #DC143C;
-  margin-top: 10px;
-  padding-bottom: 10px;
-  animation: colorchange 3s infinite;
-  }
+.title {
+font-size: 60px;
+font-family: 'Lyon Display',sans-serif;
+text-align: center;
+color: #DC143C;
+margin-top: 10px;
+padding-bottom: 10px;
+animation: colorchange 3s infinite;
+}
 
-  .INTRODUCTION {
-    text-align: center;
-    padding-top: 10px;
-    font-size: 18px;
-  }
+.INTRODUCTION {
+text-align: center;
+padding-top: 10px;
+font-size: 18px;
+}
 
-  .item {
-    width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 25px;
+.item {
+width: 100%;
+padding-left: 10px;
+padding-right: 10px;
+font-size: 25px;
+}
 
-  }
+.btn-slide {
+font-size: 25px; 
+text-align: center;
+background-color: #DC143C ;
+color: white;
+height: 50px;
+}
 
-  .btn-slide {
-  font-size: 25px; 
-  text-align: center;
-    background-color: #DC143C ;
-  color: white;
-  height: 50px;
-  }
+.slide {
+font-size: 10.6px;
+text-align: left;
+padding-top: 10px;
+bottom: 100px;
+}
 
-  .slide {
-  font-size: 10.6px;
-  text-align: left;
-  padding-top: 10px;
-  bottom: 100px;
-  }
-
-  .footer {
-  font-size: 20px; 
-  text-align: center;
-  }
-
+.footer {
+font-size: 20px; 
+text-align: center;
+}
 
 }
