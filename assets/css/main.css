@@ -1,6 +1,6 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
-	font-size: 25px;
+	font-size: 19px;
 	padding-left: 10px;
 	color: red;
 	text-align: left;
@@ -230,42 +230,42 @@ text-align:left;
 position: relative;
 bottom: 190px;
 }
- .body {
-  font-family: Helvetica,Arial,sans-serif;
-  font-size: 30px;
-  padding-left: 10px;
-  padding-top: 100px;
-  color: red;
-  text-align: left;
-  position: relative;
-  bottom: 200px;
+.body {
+font-family: Helvetica,Arial,sans-serif;
+font-size: 30px;
+padding-left: 10px;
+padding-top: 100px;
+color: red;
+text-align: left;
+position: relative;
+bottom: 200px;
   }
 
-  .WORK {
-  text-align: center;
-  font-size: 70px;
-  font-family: Helvetica,Arial,sans-serif;
-  padding-bottom: 10px;
-  padding-top: 10px;
- }
+.WORK {
+text-align: center;
+font-size: 70px;
+font-family: Helvetica,Arial,sans-serif;
+padding-bottom: 10px;
+padding-top: 10px;
+}
 
- .item {
-  width: 100%;
-  padding-left: 10px;
-  padding-right: 10px;
-  font-size: 25px;
+.item {
+width: 100%;
+padding-left: 10px;
+padding-right: 10px;
+font-size: 19px;
   }
 
-  .DPUB {
-  font-family: Helvetica,Arial,sans-serif;
-  font-size: 40px;
-  padding-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1400px;
-  height: 50px;
-  color: red;
-  text-align: center;
+.DPUB {
+font-family: Helvetica,Arial,sans-serif;
+font-size: 40px;
+padding-top: 100px;
+margin-left: auto;
+margin-right: auto;
+width: 1400px;
+height: 50px;
+color: red;
+text-align: center;
 }
 
 }
