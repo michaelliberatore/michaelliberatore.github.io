@@ -13,7 +13,6 @@ $(document).ready(function(){
 		$('.slide').toggleClass('active');
 	});
 
-
 	$('.btn-alert').click(function(){
 		$('alert').toggleClass('active');
 	});
