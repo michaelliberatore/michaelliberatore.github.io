@@ -30,6 +30,14 @@ z-index: 9999;
 padding-bottom: 10px;
 }
 
+.sub-heading {
+font-size: 20px;
+font-family: Helvetica,Arial,sans-serif;
+color: red;
+text-align: center;
+padding-bottom: 20px;
+}
+
 .DPUB {
 font-family: Helvetica,Arial,sans-serif;
 font-size: 80px;
@@ -109,6 +117,14 @@ color: red;
 padding-top: 240px;
 text-align: left;
 padding-left: 10px;
+}
+
+.sub-heading {
+font-size: 20px;
+font-family: Helvetica,Arial,sans-serif;
+color: red;
+text-align: center;
+padding-bottom: 20px;
 }
 
 .DPUB {
