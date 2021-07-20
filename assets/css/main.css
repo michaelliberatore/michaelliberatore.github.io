@@ -69,7 +69,7 @@ a {
  	cursor: pointer;
  }
 
- .WORK {
+.WORK {
   text-align: center;
   font-size: 140px;
   font-family: Helvetica,Arial,sans-serif;
@@ -97,6 +97,7 @@ a {
   padding: 20px;
   text-align: center;
   background-color: gold;
+
  
  }
 
@@ -254,7 +255,7 @@ width: 100%;
 padding-left: 10px;
 padding-right: 10px;
 font-size: 19px;
-  }
+}
 
 .DPUB {
 font-family: Helvetica,Arial,sans-serif;
