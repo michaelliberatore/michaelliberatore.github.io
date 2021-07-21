@@ -32,6 +32,11 @@ $(document).ready(function(){
 		$('.item.Personal').removeClass('hide')
 	});
 
+	$('.btn-testimonial').click(function(){
+		$('.item').addClass('hide');
+		$('.item.testimonial').removeClass('hide')
+	});
+
 	$('.btn-reset').click(function(){
 	    $('.item').removeClass('hide');
 	});
