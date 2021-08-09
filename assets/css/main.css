@@ -217,18 +217,13 @@ display: block;
 
 }
 
-.TESTIMONIAL {
-display: flex;
-flex-wrap:wrap;
-justify-content:space-between;
-height: 100%;
-max-width: 100%;
-min-width: 100%;
-flex-wrap: nowrap;
-flex-direction: row-reverse;
-padding-top: 50px;
+.footer {
 text-align: center;
-
+font-size: 15px;
+color: red;
+padding-top: 130px;
+padding-right: 550px;
+padding-bottom: 0px;
 }
 
 @media (max-width: 500px) {
