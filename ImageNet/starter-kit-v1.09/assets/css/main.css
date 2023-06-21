@@ -1,0 +1,179 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 18px;
+	background-color: white;
+}
+
+ .nav {
+  display:flex;
+  justify-content:flex-start;
+  background-color: white;
+  top: 20px; 
+  left: 500px;
+  width: 100%;
+  background-color:white;
+  z-index: 9999;
+
+ }
+
+ .btn {
+   border: 1px solid black;
+   padding: 10px;
+   margin:10px;
+   border-radius:10px;
+ }
+
+ .btn:hover {
+ 	background-color: orange;
+ 	color: blue;
+ 	cursor: pointer;
+ }
+
+ .title {
+  font-size: 120px;
+  font-family: Times;
+  text-align: center;
+  color: Orange; 
+  margin-top: 12.22vh;
+  padding-bottom: 10px;
+  animation: colorchange 3s infinite;
+}
+  @keyframes colorchange {
+    0% {
+       color: Blue;
+    }
+    100% {
+       color: Orange;
+    }
+  } 
+ }
+
+ .container {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:flex-end;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+
+ }
+
+ .item {
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+ 
+ }
+
+ .item img {
+ 	max-width: 100%;
+ 	display: block;
+ 	margin: auto;
+ 	padding-bottom: 20px;
+ }
+
+ .demo-menu {
+  margin-left:10px;
+  margin-top:10px;
+}
+
+.smile {
+  width:150px;
+  height:150px;
+  margin:10px;  
+  background-color: gray;
+  transition:2s;
+}
+
+.smile:hover {
+  width: 300px;
+  background-color: yellow;
+  transition:2s;
+}
+
+.box {
+  width:150px;
+  height:150px;
+  margin:10px;
+  background-color:red;
+  transition:2s;
+}
+
+.slide {
+  width:50%;
+  height: 100vh;
+  padding:10px;
+  background-color: yellow;
+  position:fixed;
+  top:0px;
+  right:0px;
+  margin-right: -500%;
+}
+
+  .box.active {
+    background-color: blue;
+    transition:2s;
+  }
+
+
+.slide.active {
+  margin-right: 0;
+  transition:2s;
+}
+.alert {
+  width:200px;
+  padding:20px;
+  position:fixed;
+  top:50px;
+  left:400px;
+  box-shadow:10px 10px 10px gray;
+  background-color: yellow;
+}
+
+.nav {
+  width:100%;
+  padding:-30px;
+  position:fixed;
+  top:0px;
+  left:0px;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+}
+
+.btn {
+  border:1px solid black;
+  padding:10px;
+  border-radius: 10px;
+}
+
+
+.container {
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.item {
+  width:33%;
+}
+
+.item.small {
+  width: 16%;
+}
+
+.item.large {
+  width: 16%;
+}
+
+.item img {
+  filter:grayscale(100%) contrast(2);
+  width: 100%;
+
+}
+.item img:hover {
+  filter:grayscale(0%) contrast(1);
+}
+
+.item.hide{
+  display: none;
+}

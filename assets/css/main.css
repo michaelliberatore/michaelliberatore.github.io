@@ -1,164 +1,159 @@
 body {
-	font-family: Helvetica,Arial,sans-serif;
-	font-size: 19px;
-	padding-left: 10px;
-	color: red;
-	text-align: left;
-	position: relative;
-	bottom: 200px;
-  background-color: gold;
+font-family: Helvetica,Arial,sans-serif;
+font-size: 19px;
+padding-left: 10px;
+color: red;
+text-align: left;
+position: relative;
+bottom: 200px;
+background-color: white;
 
 }
 
 
 a {
-	color:red;
+color:red;
 	
-	width: 1400px;
-	height: 1000px;
+width: 1400px;
+height: 1000px;
 }
   
-  .title {
-	font-family: Helvetica,Arial,sans-serif;
-	font-size: 180px;
-	padding-top: 250px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 1400px;
-	height: 800px;
-	color: red;
-	text-align:left;
-  z-index: 9999;
-	}
-
-  .body {
-  font-family: Helvetica,Arial,sans-serif;
-  font-size: 35px;
-  padding-left: 10px;
-  padding-top: 100px;
-  color: red;
-  text-align: left;
-  position: relative;
-  bottom: 200px;
-  }
-
-  .nav {
-  justify-content:flex-start;
-  background-color: gold;
-  top: 20px; 
-  left: 500px;
-  width: 100%;
-  text-align: center;
-  display: inline-block;
-
-
- }
-
- .btn {
-  border: 3px red;
-  color: red;
-  padding: 10px 24px;
-  cursor: pointer;
-  width: 20%;
-  display: inline-block;
- }
-
- .btn:hover {
- 	background-color: red;
- 	color: gold;
- 	cursor: pointer;
- }
-
- .WORK {
-  text-align: center;
-  font-size: 140px;
-  font-family: Helvetica,Arial,sans-serif;
-  padding-bottom: 10px;
-  padding-top: 10px;
- }
-
- .container {
-  display: flex;
-  flex-wrap:wrap;
-  justify-content:space-between;
-  height: 100%;
-  max-width: 100%;
-  min-width: 100%;
-  flex-wrap: nowrap;
-  flex-direction: row-reverse;
-  padding-top: 50px;
-  text-align: center;
-  background-color: gold;
-
- }
-
- .item {
-  width: 50%;
-  padding: 20px;
-  text-align: center;
-  background-color: gold;
- 
- }
-
- .item img {
- 	max-width: 100%;
- 	display: block;
- 	margin: auto;
- 	padding-bottom: 120px;
-  background-color: gold;
- }
-
-.smile:hover {
-  width: 300px;
-  background-color: yellow;
-  transition:2s;
+.Heroimage {
+display: flex;
+flex-wrap:wrap;
+justify-content:space-between;
+max-width: 100%;
+min-width: 100%;
+flex-wrap: nowrap;
+flex-direction: row-reverse;
+padding-top: 180px;
+padding-bottom: 100px;
 }
 
-.box {
-  width:150px;
-  height:150px;
-  margin:10px;
-  background-color:gold;
-  transition:2s;
-  display: inline-block;
-  text-align: left;
-  padding-top: 
-}
-
-  .box.active {
-    background-color: blue;
-    transition:2s;
-  }
-
-.alert {
-  width:200px;
-  padding:20px;
-  position:fixed;
-  top:50px;
-  left:400px;
-  box-shadow:10px 10px 10px gray;
-  background-color: yellow;
+.body {
+font-family: Helvetica,Arial,sans-serif;
+font-size: 35px;
+padding-left: 10px;
+padding-top: 70px;
+color: red;
+text-align: left;
+position: relative;
+bottom: 200px;
 }
 
 .nav {
-  width:100%;
-  padding:-30px;
-  position:fixed;
-  top:0px;
-  left:0px;
-  display: flex;
-  flex-wrap:wrap;
-  justify-content: space-around;
+justify-content:flex-start;
+background-color: white; 
+top: 20px; 
+left: 500px;
+width: 100%;
+text-align: center;
+display: inline-block;
+}
+
+.btn {
+border: 3px red;
+color: red;
+padding: 10px 24px;
+cursor: pointer;
+width: 20%;
+display: inline-block;
+}
+
+.btn:hover {
+background-color: red;
+color: white; 
+cursor: pointer;
+}
+
+.WORK {
+text-align: center;
+font-size: 140px;
+font-family: Helvetica,Arial,sans-serif;
+padding-bottom: 10px;
+padding-top: 10px;
 }
 
 .container {
-  display: flex;
-  flex-wrap:wrap;
+display: flex;
+flex-wrap:wrap;
+justify-content:space-between;
+height: 100%;
+max-width: 100%;
+min-width: 100%;
+flex-wrap: nowrap;
+flex-direction: row-reverse;
+padding-top: 50px;
+text-align: center;
+background-color: white;
 }
 
 .item {
-  width:50%;
-  top: 0px;
+width: 50%;
+padding: 20px;
+text-align: center;
+background-color: white;
+}
+
+.item img {
+max-width: 100%;
+display: block;
+margin: auto;
+padding-bottom: 120px;
+background-color: white;
+}
+
+.smile:hover {
+width: 300px;
+background-color: white;
+transition:2s;
+}
+
+.box {
+width:150px;
+height:150px;
+margin:10px;
+background-color:white;
+transition:2s;
+display: inline-block;
+text-align: left;
+padding-top: 
+}
+
+.box.active {
+background-color: blue;
+transition:2s;
+}
+
+.alert {
+width:200px;
+padding:20px;
+position:fixed;
+top:50px;
+left:400px;
+box-shadow:10px 10px 10px gray;
+background-color: yellow;
+}
+
+.nav {
+width:100%;
+padding:-30px;
+position:fixed;
+top:0px;
+left:0px;
+display: flex;
+flex-wrap:wrap;
+justify-content: space-around;
+}
+
+.container {
+display: flex;
+flex-wrap:wrap;
+}
+
+.item {
+width:50%;
+top: 0px;
 }
 
 .item img {
@@ -166,39 +161,39 @@ width: 100%;
 
 }
 .item img:hover {
-  filter:grayscale(0%) contrast(1);
+filter:grayscale(0%) contrast(1);
 }
 
 .item.hide{
-  display: none;
+display: none;
 }
 
 .Contact {
-  font-family: Helvetica,Arial,sans-serif;
-  font-size: 35px;
-  padding-right: 40px;
-  padding-top: 50px;
-  padding-bottom: 90px;
-  color: red;
-  text-align:left;
-  position: relative;
-  bottom: 190px;
+font-family: Helvetica,Arial,sans-serif;
+font-size: 35px;
+padding-right: 40px;
+padding-top: 50px;
+padding-bottom: 90px;
+color: red;
+text-align:center;
+position: relative;
+bottom: 190px;
 }
 
 .DPUB {
-  font-family: Helvetica,Arial,sans-serif;
-  font-size: 70px;
-  padding-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1400px;
-  height: 50px;
-  color: red;
-  text-align: center;
+font-family: Helvetica,Arial,sans-serif;
+font-size: 70px;
+padding-top: 100px;
+margin-left: auto;
+margin-right: auto;
+width: 1400px;
+height: 50px;
+color: red;
+text-align: center;
 }
 
 .desktop {
-  display: block;
+display: block;
 }
 
 @media (max-width: 500px) {
@@ -219,6 +214,15 @@ color: red;
 text-align:center;
  
 }
+
+.Heroimage {
+
+}
+
+
+
+
+
 .Contact {
 font-family: Helvetica,Arial,sans-serif;
 font-size: 35px;
@@ -239,7 +243,7 @@ color: red;
 text-align: left;
 position: relative;
 bottom: 200px;
-  }
+}
 
 .WORK {
 text-align: center;
@@ -254,7 +258,7 @@ width: 100%;
 padding-left: 10px;
 padding-right: 10px;
 font-size: 19px;
-  }
+}
 
 .DPUB {
 font-family: Helvetica,Arial,sans-serif;
