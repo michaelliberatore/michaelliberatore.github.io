@@ -74,6 +74,15 @@ padding-bottom: 10px;
 padding-top: 10px;
 }
 
+.footer {
+text-align: center;
+font-size: 15px;
+font-weight: bold;
+color: red;
+padding-top: 100px;
+padding-right: 590px;
+}
+
 .container {
 display: flex;
 flex-wrap:wrap;
@@ -116,8 +125,7 @@ margin:10px;
 background-color:white;
 transition:2s;
 display: inline-block;
-text-align: left;
-padding-top: 
+text-align: left; 
 }
 
 .box.active {
@@ -212,12 +220,17 @@ width: 110px;
 height: 800px;
 color: red;
 text-align:center;
- 
 }
 
 .Heroimage {
 display: none;
+}
 
+.footer {
+text-align: center;
+padding-top: 10px;
+font-size: 15px;
+color: red;
 }
 
 .Contact {
