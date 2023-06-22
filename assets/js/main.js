@@ -22,9 +22,9 @@ $(document).ready(function(){
 		$('.item.Print').removeClass('hide')
 	});
 
-	$('.btn-Publications').click(function(){
+	$('.btn-Posters').click(function(){
 		$('.item').addClass('hide');
-		$('.item.Publications').removeClass('hide')
+		$('.item.Posters').removeClass('hide')
 	});
 
 	$('.btn-Personal').click(function(){
