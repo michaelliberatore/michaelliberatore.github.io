@@ -22,7 +22,7 @@ $(document).ready(function(){
 		$('.item.Print').removeClass('hide')
 	});
 
-	$('.btn-Posters').click(function(){
+	$('.btn-Photography').click(function(){
 		$('.item').addClass('hide');
 		$('.item.Posters').removeClass('hide')
 	});
