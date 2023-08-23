@@ -24,12 +24,12 @@ $(document).ready(function(){
 
 	$('.btn-Photography').click(function(){
 		$('.item').addClass('hide');
-		$('.item.Posters').removeClass('hide')
+		$('.item.Photography').removeClass('hide')
 	});
 
-	$('.btn-Personal').click(function(){
+	$('.btn-Client').click(function(){
 		$('.item').addClass('hide');
-		$('.item.Personal').removeClass('hide')
+		$('.item.Client').removeClass('hide')
 	});
 
 	$('.btn-reset').click(function(){
