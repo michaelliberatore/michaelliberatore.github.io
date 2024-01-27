@@ -174,11 +174,10 @@ padding-top: 10px;
 }
 
 .footer {
-text-align: left;
+top:230 px;
 font-size: 20px;
 background-color: #DC143C ;
 color: white;
-height: 50px;
 }
 
 .desktop {
