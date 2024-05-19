@@ -243,9 +243,9 @@ display: flex;
 height: auto;
 flex-wrap: nowrap;
 flex-direction: row-reverse;
-padding-top: 420px;
-padding-bottom: 200px;
-padding-right: 110px;
+padding-top: 280px;
+padding-bottom: 60px;
+padding-right: -40px;
 }
 
 .Contact {
