@@ -3,7 +3,7 @@ font-family: Helvetica,Arial,sans-serif;
 font-size: 19px;
 padding-left: 10px;
 color: red;
-text-align: left;
+text-align: center;
 position: relative;
 bottom: 200px;
 background-color: white;
@@ -39,7 +39,7 @@ font-size: 35px;
 padding-left: 10px;
 padding-top: 70px;
 color: red;
-text-align: left;
+text-align: center;
 position: relative;
 bottom: 200px;
 }
@@ -192,14 +192,17 @@ bottom: 190px;
 
 .DPUB {
 font-family: Helvetica,Arial,sans-serif;
-font-size: 50px;
-padding-top: 100px;
+font-size: 35px;
+position: relative;
 margin-left: auto;
 margin-right: auto;
-width: 1400px;
-height: 50px;
-color: red;
+width: 100%;
+padding-top: 30px;
+padding-bottom: 30px;
+bottom: -200px;
+height: 36px;
 text-align: center;
+
 }
 
 .desktop {
@@ -209,7 +212,13 @@ display: block;
 @media (max-width: 500px) {
 
 .btn {
-display: none;
+justify-content:flex-start;
+background-color: white; 
+top: 20px; 
+left: 500px;
+width: 100%;
+text-align: center;
+display: inline-block;
 }
 
 .title {
@@ -230,11 +239,12 @@ display: none;
 
 .mobileimage {
 display: flex;
+height: auto;
 flex-wrap: nowrap;
 flex-direction: row-reverse;
-padding-top: 200px;
+padding-top: 420px;
 padding-bottom: 200px;
-padding-right: 120px;
+padding-right: 95px;
 }
 
 .Contact {
@@ -284,13 +294,12 @@ font-size: 19px;
 
 .DPUB {
 font-family: Helvetica,Arial,sans-serif;
-font-size: 40px;
-padding-top: 100px;
+font-size: 15px;
+position: relative;
 margin-left: auto;
 margin-right: auto;
-width: 1400px;
-height: 50px;
-color: red;
+width: 100%;
+bottom: -200px;
 text-align: center;
 }
 
