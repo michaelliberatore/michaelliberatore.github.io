@@ -46,6 +46,7 @@ bottom: 200px;
 
 .nav {
 justify-content:flex-start;
+position: fixed;
 background-color: white; 
 top: 20px; 
 left: 500px;
@@ -244,7 +245,7 @@ flex-wrap: nowrap;
 flex-direction: row-reverse;
 padding-top: 420px;
 padding-bottom: 200px;
-padding-right: 95px;
+padding-right: -30px;
 }
 
 .Contact {
@@ -258,13 +259,14 @@ text-align:left;
 position: relative;
 bottom: 190px;
 }
+
 .body {
 font-family: Helvetica,Arial,sans-serif;
 font-size: 30px;
 padding-left: 10px;
 padding-top: 100px;
 color: red;
-text-align: left;
+text-align: center;
 position: relative;
 bottom: 200px;
 }
