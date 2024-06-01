@@ -223,6 +223,8 @@ left: 500px;
 width: 100%;
 text-align: center;
 display: inline-block;
+Position: fixed;
+z-index: 1000;
 }
 
 .title {
