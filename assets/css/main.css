@@ -248,13 +248,10 @@ display: none;
 }
 
 .mobileimage {
-display: flex;
-height: auto;
-flex-wrap: nowrap;
-flex-direction: row-reverse;
+display: inline-block;
+height: 100vh;
 padding-top: 420px;
 padding-bottom: 180px;
-padding-right: 110px;
 }
 
 .Contact {
