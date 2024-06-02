@@ -67,16 +67,17 @@ cursor: pointer;
 
 .SLOGAN {
 text-align: center;
+color: black;
 font-size: 50px;
 font-family: Helvetica,Arial,sans-serif;
-animation: colorchange 5s infinite alternate;
+animation: pulse 3s ease infinite alternate;
 }
-@keyframes colorchange {
-0% {
-font-size: 40px;
-}
-100% {
-font-size: 100px;
+@keyframes pulse {
+	0%, 100% {
+		color: red;
+	}
+	50% {
+		color: white;
 }
 }
 }
@@ -244,7 +245,7 @@ display: none;
 }
 
 .SLOGAN {
-display: none;
+display: inline-block;
 }
 
 .mobileimage {
@@ -270,7 +271,7 @@ bottom: 190px;
 font-family: Helvetica,Arial,sans-serif;
 font-size: 30px;
 padding-left: 10px;
-padding-top: 100px;
+padding-top: 300px;
 color: red;
 text-align: center;
 position: relative;
