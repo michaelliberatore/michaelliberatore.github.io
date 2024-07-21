@@ -69,6 +69,7 @@ cursor: pointer;
 text-align: center;
 color: black;
 font-size: 50px;
+padding-bottom: 90px;
 font-family: Helvetica,Arial,sans-serif;
 animation: pulse 3s ease infinite alternate;
 }
@@ -252,8 +253,8 @@ display: inline-block;
 display: inline-block;
 height: 100vh;
 padding-top: 190px;
-padding-right: 90px;
-padding-bottom: 180px;
+padding-right: 0px;
+padding-bottom: 3px;
 }
 
 .Contact {
