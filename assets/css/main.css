@@ -165,6 +165,7 @@ justify-content: space-around;
 .container {
 display: flex;
 flex-wrap:wrap;
+padding-top: 4px;
 }
 
 .item {
@@ -250,10 +251,10 @@ display: none;
 }
 
 .mobileimage {
-display: inline-block;
+display: none;
 height: 100vh;
-padding-top: 190px;
-padding-right: 0px;
+padding-top: 210px;
+padding-bottom: 210px;
 }
 
 .Contact {
@@ -271,12 +272,12 @@ bottom: 190px;
 .body {
 font-family: Helvetica,Arial,sans-serif;
 font-size: 30px;
-padding-left: 10px;
-padding-top: 0px;
+padding-left: 300px;
+padding-top: 300px;
 color: red;
 text-align: center;
-position: relative;
-bottom: 200px;
+font-display: block;
+bottom: 20px;
 }
 
 .WORK {
@@ -293,6 +294,10 @@ font-size: 60px;
 font-family: Helvetica,Arial,sans-serif;
 padding-bottom: 10px;
 padding-top: 10px;
+}
+
+.container {
+padding-top: 350px;
 }
 
 .item {
