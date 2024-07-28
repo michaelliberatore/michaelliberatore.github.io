@@ -31,8 +31,10 @@ display: none;
 .body {
 font-family: Helvetica,Arial,sans-serif;
 font-size: 35px;
-padding-left: 10px;
-padding-top: 220px;
+padding-left: 200px;
+padding-right: 200px;
+padding-top: 290px;
+padding-bottom: 0px;
 color: red;
 text-align: center;
 position: relative;
