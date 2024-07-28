@@ -272,8 +272,9 @@ bottom: 190px;
 .body {
 font-family: Helvetica,Arial,sans-serif;
 font-size: 30px;
-padding-left: 300px;
-padding-top: 300px;
+padding-left: 11px;
+padding-right: 11px;
+padding-top: 60px;
 color: red;
 text-align: center;
 font-display: block;
