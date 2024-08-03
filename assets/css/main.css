@@ -94,7 +94,7 @@ padding-top: 30px;
 }
 
 .container {
-display: flex;
+display: none;
 flex-wrap:wrap;
 justify-content:space-between;
 height: 100%;
