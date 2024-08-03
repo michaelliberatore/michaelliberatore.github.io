@@ -1,0 +1,147 @@
+body {
+font-family: Helvetica,Arial,sans-serif;
+font-size: 19px;
+padding-left: 10px;
+color: red;
+text-align: center;
+position: relative;
+bottom: 200px;
+background-color: white;
+
+}a {
+color:red;
+	
+width: 1400px;
+height: 1000px;
+}
+
+.nav {
+justify-content:flex-start;
+position: fixed;
+background-color: white; 
+top: 20px; 
+left: 500px;
+width: 100%;
+text-align: center;
+display: inline-block;
+}
+
+.nav {
+width:100%;
+padding:-30px;
+position:fixed;
+top:0px;
+left:0px;
+display: flex;
+flex-wrap:wrap;
+justify-content: space-around;
+}
+
+.btn {
+border: 3px red;
+color: red;
+padding: 10px 24px;
+cursor: pointer;
+width: 20%;
+display: inline-block;
+}
+
+.btn:hover {
+background-color: white;
+color: white; 
+cursor: pointer;
+}
+
+.body {
+font-family: Helvetica,Arial,sans-serif;
+font-size: 35px;
+padding-left: 200px;
+padding-right: 200px;
+padding-top: 500px;
+padding-bottom: 0px;
+color: red;
+text-align: center;
+position: relative;
+bottom: 200px;
+}
+
+.Heroimage {
+max-width: 100%;
+height: 100%;
+padding-top: 100px;
+padding-bottom: 2px;
+}
+
+
+.Contact {
+font-family: Helvetica,Arial,sans-serif;
+font-size: 35px;
+padding-right: 40px;
+padding-top: 50px;
+padding-bottom: 90px;
+color: red;
+text-align:center;
+position: relative;
+bottom: 190px;
+}
+
+.DPUB {
+font-family: Helvetica,Arial,sans-serif;
+font-size: 35px;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+padding-top: 30px;
+padding-bottom: 30px;
+bottom: -200px;
+height: 36px;
+text-align: center;
+
+}
+
+@media (max-width: 900px) {
+
+
+.Contact {
+font-family: Helvetica,Arial,sans-serif;
+font-size: 35px;
+padding-right: 40px;
+padding-top: 40px;
+padding-bottom: 21px;
+color: red;
+text-align:left;
+position: relative;
+bottom: 190px;
+}
+
+.body {
+font-family: Helvetica,Arial,sans-serif;
+font-size: 30px;
+padding-left: 11px;
+padding-right: 11px;
+color: red;
+text-align: center;
+font-display: block;
+}
+
+.Heroimage {
+display: none;
+height: 100vh;
+padding-top: 210px;
+padding-bottom: 210px;
+}
+
+.DPUB {
+font-family: Helvetica,Arial,sans-serif;
+font-size: 15px;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+bottom: -200px;
+text-align: center;
+}
+
+}
+
