@@ -223,10 +223,11 @@ display: block;
 .container {
 display: block;
 flex-wrap:wrap;
-
+justify-content:space-between;
+max-width: 100%;
+min-width: 100%;
 text-align: center;
 background-color: white;
-padding-top: 0px;
 }
 
 .btn {
