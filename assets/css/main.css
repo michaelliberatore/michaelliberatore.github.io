@@ -220,6 +220,15 @@ display: block;
 
 @media (max-width: 900px) {
 
+.container {
+display: block;
+flex-wrap:wrap;
+
+text-align: center;
+background-color: white;
+padding-top: 0px;
+}
+
 .btn {
 justify-content:flex-start;
 background-color: white; 
@@ -253,10 +262,9 @@ display: none;
 }
 
 .mobileimage {
-display: none;
+display: inline-block;
 height: 100vh;
 padding-top: 210px;
-padding-bottom: 210px;
 }
 
 .Contact {
