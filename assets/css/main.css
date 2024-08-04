@@ -201,7 +201,7 @@ bottom: 190px;
 
 .DPUB {
 font-family: Helvetica,Arial,sans-serif;
-font-size: 35px;
+font-size: 25px;
 position: relative;
 margin-left: auto;
 margin-right: auto;
@@ -230,16 +230,30 @@ text-align: center;
 background-color: white;
 }
 
-.btn {
+.nav {
 justify-content:flex-start;
+position: fixed;
 background-color: white; 
 top: 20px; 
 left: 500px;
 width: 100%;
 text-align: center;
 display: inline-block;
-Position: fixed;
-z-index: 1000;
+}
+
+.btn {
+border: 3px red;
+color: red;
+padding: 10px 24px;
+cursor: pointer;
+width: 5%;
+display: inline-block;
+}
+
+.btn:hover {
+background-color: white;
+color: red; 
+cursor: pointer;
 }
 
 .title {
