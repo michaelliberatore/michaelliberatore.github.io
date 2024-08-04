@@ -218,7 +218,7 @@ text-align: center;
 display: block;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
 
 .container {
 display: block;
@@ -264,6 +264,7 @@ display: none;
 
 .mobileimage {
 display: inline-block;
+margin-bottom: 20px;
 height: 100vh;
 padding-top: 210px;
 }
@@ -309,7 +310,8 @@ padding-top: 10px;
 }
 
 .container {
-padding-top: 350px;
+margin-top: none;
+margin-bottom: none;
 }
 
 .item {
