@@ -41,7 +41,7 @@ padding-left: 200px;
 padding-right: 200px;
 padding-top: 290px;
 padding-bottom: 0px;
-color: red;
+color: #34704a;
 text-align: center;
 position: relative;
 bottom: 200px;
@@ -59,8 +59,8 @@ display: inline-block;
 }
 
 .btn {
-border: 3px red;
-color: red;
+border: 3px #34704a;
+color: #34704a;
 padding: 10px 24px;
 cursor: pointer;
 width: 20%;
@@ -69,7 +69,7 @@ display: inline-block;
 
 .btn:hover {
 background-color: white;
-color: red; 
+color: #34704a; 
 cursor: pointer;
 }
 
@@ -83,7 +83,7 @@ animation: pulse 3s ease infinite alternate;
 }
 @keyframes pulse {
 0%, 100% {
-color: red;
+color: #34704a;
 }
 50% {
 color: white;
@@ -199,7 +199,7 @@ font-size: 35px;
 padding-right: 40px;
 padding-top: 50px;
 padding-bottom: 90px;
-color: red;
+color: #34704a;
 text-align:center;
 position: relative;
 bottom: 190px;
@@ -248,8 +248,8 @@ display: inline-block;
 }
 
 .btn {
-border: 3px red;
-color: red;
+border: 3px #34704a;
+color: #34704a;
 padding: 10px 24px;
 cursor: pointer;
 width: 5%;
@@ -258,7 +258,7 @@ display: inline-block;
 
 .btn:hover {
 background-color: white;
-color: red; 
+color: #34704a; 
 cursor: pointer;
 }
 
@@ -270,7 +270,7 @@ margin-left: 0px;
 margin-right: auto;
 width: 110px;
 height: 800px;
-color: red;
+color: #34704a;
 text-align:center;
 }
 
@@ -293,7 +293,7 @@ font-size: 35px;
 padding-right: 40px;
 padding-top: 40px;
 padding-bottom: 21px;
-color: red;
+color: #34704a;
 text-align:left;
 position: relative;
 bottom: 190px;
@@ -305,7 +305,7 @@ font-size: 30px;
 padding-left: 11px;
 padding-right: 11px;
 padding-top: 60px;
-color: red;
+color: #34704a;
 text-align: center;
 font-display: block;
 bottom: 20px;
