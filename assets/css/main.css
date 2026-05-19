@@ -25,12 +25,12 @@ padding-bottom: 2px;
 }
 
 .mobileimage img {
-  width: 100%;
-  max-width: 1080px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 0;
+width: 100%;
+max-width: 1080px;
+height: auto;
+display: block;
+margin: 0 auto;
+margin-bottom: 0;
 
 }
 
@@ -82,11 +82,11 @@ font-family: Helvetica,Arial,sans-serif;
 animation: pulse 3s ease infinite alternate;
 }
 @keyframes pulse {
-	0%, 100% {
-		color: red;
-	}
-	50% {
-		color: white;
+0%, 100% {
+color: red;
+}
+50% {
+color: white;
 }
 }
 }
@@ -340,17 +340,14 @@ font-size: 19px;
 }
 
 .DPUB {
-  font-family: Helvetica,Arial,sans-serif;
-  font-size: 15px;
-  margin: 40px auto 0 auto;
-  width: 100%;
-  text-align: center;
+font-family: Helvetica,Arial,sans-serif;
+font-size: 15px;
+margin: 40px auto 0 auto;
+width: 100%;
+text-align: center;
 }
 
 }
-
-
-
 
 }
 
