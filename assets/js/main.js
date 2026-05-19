@@ -35,4 +35,6 @@ $('.btn-reset').click(function(){
 $('.item').removeClass('hide');
 });
 
+
+
 });
