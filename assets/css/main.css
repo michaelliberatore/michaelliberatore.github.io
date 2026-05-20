@@ -16,14 +16,11 @@ height: 1000px;
 }
   
 .Heroimage {
-max-width: 200%;
-height: 200%;
-padding-top: 200px;
-padding-bottom: 2px;
-}
-
-.mobileimage img {
-display: none;
+width: 100%;
+max-width: 1080px;
+height: auto;
+display: block;
+margin: 0 auto;
 }
 
 .body {
@@ -267,23 +264,15 @@ text-align:center;
 }
 
 .Heroimage {
-display: none;
+width: 100%;
+max-width: 1080px;
+height: auto;
+display: block;
+margin: 0 auto;
 }
 
 .SLOGAN {
 display: none;
-}
-
-.mobileimage {
-display: block;
-}
-
-.mobileimage img {
-width: 100%;
-max-width: 100%;
-height: auto;
-display: block;
-margin: 0 auto;
 }
 
 .Contact {
