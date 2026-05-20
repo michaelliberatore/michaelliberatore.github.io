@@ -4,10 +4,8 @@ font-size: 19px;
 padding-left: 10px;
 color:#34704a;
 text-align: center;
-position: relative;
-bottom: 200px;
 background-color: white;
-
+margin: 0;
 }
 
 a {
@@ -25,13 +23,7 @@ padding-bottom: 2px;
 }
 
 .mobileimage img {
-width: 100%;
-max-width: 1080px;
-height: auto;
-display: block;
-margin: 0 auto;
-margin-bottom: 0;
-
+display: none;
 }
 
 .body {
@@ -284,7 +276,14 @@ display: none;
 
 .mobileimage {
 display: block;
-padding-top: 210px;
+}
+
+.mobileimage img {
+width: 100%;
+max-width: 100%;
+height: auto;
+display: block;
+margin: 0 auto;
 }
 
 .Contact {
