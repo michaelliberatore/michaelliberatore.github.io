@@ -55,9 +55,10 @@ top: 0;
 left: 0;
 display: flex;
 justify-content: space-around;
-background-color: transparent;
+background-color: #ffffff; /* solid white background */
 z-index: 1000;
 padding: 10px 0;
+border-bottom: 1px solid rgba(0,0,0,0.08); /* optional subtle divider */
 }
 
 .btn {
@@ -124,7 +125,7 @@ FOOTER (MATCHES GRID SYSTEM)
 
 .DPUB {
 font-size: 25px;
-line-height: 1.6;
+line-height: 1.2;
 padding: 60px;
 max-width: 1300px;
 margin: 0 auto;
@@ -136,6 +137,11 @@ MOBILE
 ========================= */
 
 @media (max-width: 768px) {
+
+.nav {
+background-color: #ffffff; /* solid white on mobile */
+padding: 8px 0;
+}
 
 .container {
 grid-template-columns: 1fr;

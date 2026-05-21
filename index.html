@@ -39,7 +39,7 @@ gtag('config', 'G-6CPD7CFPSW');
 
 <!-- HERO -->
 <div class="Heroimage">
-<img src="assets/images/LIBRC.png" alt="">
+<img src="assets/images/LIBRC2.png" alt="">
 </div>
 
 <!-- GRID -->
@@ -77,13 +77,18 @@ gtag('config', 'G-6CPD7CFPSW');
 
 <!-- FOOTER -->
 <div class="DPUB">
-© Michael Liberatore, 2026 <br><br>
+© Michael Liberatore, <span id="year"></span> <br><br>
 Follow <a href="https://www.instagram.com/liberativecreative/">@liberativecreative</a> <br><br>
 ABN: 98497915371 <br>
 </div>
 
 </div>
 <!-- SITE WRAPPER END -->
+
+<!-- AUTO YEAR SCRIPT -->
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
 </body>
 </html>
