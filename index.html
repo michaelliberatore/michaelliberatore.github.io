@@ -29,9 +29,9 @@ gtag('config', 'G-6CPD7CFPSW');
 
 <!-- NAV (kept OUTSIDE site wrapper for fixed positioning stability) -->
 <div class="nav">
-<div class="btn btn-reset"><a href="https://liberativecreative.com/">HOME</a></div>    
-<div class="btn btn-reset"><a href="https://liberativecreative.com/About/About.html">ABOUT</a></div>    
-<div class="btn btn-Client"><a href="https://liberativecreative.com/WORK/index.html">WORK</a></div>
+  <div class="btn btn-reset"><a href="https://liberativecreative.com/">HOME</a></div>    
+  <div class="btn btn-reset"><a href="https://liberativecreative.com/About/About.html">ABOUT</a></div>    
+  <div class="btn btn-Client"><a href="https://liberativecreative.com/WORK/index.html">WORK</a></div>
 </div>
 
 <!-- SITE WRAPPER START -->
@@ -56,38 +56,65 @@ gtag('config', 'G-6CPD7CFPSW');
 <div class="img-wrap">
 <img src="assets/images/ELP-BRAND.png">
 </div>
-<a href="https://liberativecreative.com/WORK/index.html">BRANDING & LOGOS</a> 
+<a href="https://liberativecreative.com/WORK/index.html">BRANDING</a> 
 </div>
 
 <div class="item Client">
 <div class="img-wrap">
 <img src="assets/images/Instagram-poster.png">
 </div>
-<a href="https://liberativecreative.com/WORK/index.html">POSTER DESIGN</a> 
+<a href="https://liberativecreative.com/WORK/index.html">POSTERS</a> 
 </div>
 
 <div class="item Print">
 <div class="img-wrap">
 <img src="assets/images/figure46.png">
 </div>
-<a href="https://liberativecreative.com/WORK/index.html">PRINT & MERCHANDISE</a> 
+<a href="https://liberativecreative.com/WORK/index.html">PRINT</a> 
 </div>
 
 </div>
 
 <!-- FOOTER -->
 <div class="DPUB">
-© Michael Liberatore, <span id="year"></span> <br><br>
-Follow <a href="https://www.instagram.com/liberativecreative/">@liberativecreative</a> <br><br>
-ABN: 98497915371 <br>
-</div>
+<div class="DPUB-track">
+<span>
+© MICHAEL LIBERATORE, <span class="year"></span> 
+<a href="mailto:liberativecreative@gmail.com">LIBERATIVECREATIVE@GMAIL.COM</a>
+</span>
+<span>
+<a href="https://www.linkedin.com/in/michael-anthony-liberatore/" target="_blank" rel="noopener noreferrer">
+LINKEDIN </a>
+</span>
+<span>
+<a href="https://www.instagram.com/liberativecreative/" target="_blank" rel="noopener noreferrer"> @LIBERATIVECREATIVE </a>
+</span>
+<span>ABN: 98497915371</span>
 
+<!-- duplicate for seamless scroll -->
+<span>
+© MICHAEL LIBERATORE, <span class="year"></span> 
+<a href="mailto:liberativecreative@gmail.com">LIBERATIVECREATIVE@GMAIL.COM</a>
+</span>
+<span>
+<a href="https://www.linkedin.com/in/michael-anthony-liberatore/" target="_blank" rel="noopener noreferrer">
+LINKEDIN </a>
+</span>
+<span>
+<a href="https://www.instagram.com/liberativecreative/" target="_blank" rel="noopener noreferrer">
+@LIBERATIVECREATIVE </a>
+</span>
+<span>ABN: 98497915371</span>
+</div>
+</div>
 </div>
 <!-- SITE WRAPPER END -->
 
 <!-- AUTO YEAR SCRIPT -->
 <script>
-document.getElementById("year").textContent = new Date().getFullYear();
+document.querySelectorAll(".year").forEach(el => {
+  el.textContent = new Date().getFullYear();
+});
 </script>
 
 </body>
