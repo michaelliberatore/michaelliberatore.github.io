@@ -199,16 +199,45 @@ Click <a href="https://melbournescooterwarehouse.com.au/">here</a> to visit the 
 </div>
 <!-- end container -->
 
-<!-- FOOTER (MATCHED ABOUT PAGE STYLE) -->
+<!-- FOOTER -->
 <div class="DPUB">
-© Michael Liberatore, <span id="year"></span> <br><br>
-Follow <a href="https://www.instagram.com/liberativecreative/">@liberativecreative</a> <br><br>
-ABN: 98497915371 <br>
+<div class="DPUB-track">
+<span>
+© MICHAEL LIBERATORE, <span class="year"></span> 
+<a href="mailto:liberativecreative@gmail.com">LIBERATIVECREATIVE@GMAIL.COM</a>
+</span>
+<span>
+<a href="https://www.linkedin.com/in/michael-anthony-liberatore/" target="_blank" rel="noopener noreferrer">
+LINKEDIN </a>
+</span>
+<span>
+<a href="https://www.instagram.com/liberativecreative/" target="_blank" rel="noopener noreferrer"> @LIBERATIVECREATIVE </a>
+</span>
+<span>ABN: 98497915371</span>
+
+  <!-- duplicate for seamless scroll -->
+<span>
+© MICHAEL LIBERATORE, <span class="year"></span> 
+<a href="mailto:liberativecreative@gmail.com">LIBERATIVECREATIVE@GMAIL.COM</a>
+</span>
+<span>
+<a href="https://www.linkedin.com/in/michael-anthony-liberatore/" target="_blank" rel="noopener noreferrer">
+LINKEDIN </a>
+</span>
+<span>
+<a href="https://www.instagram.com/liberativecreative/" target="_blank" rel="noopener noreferrer">
+@LIBERATIVECREATIVE </a>
+</span>
+<span>ABN: 98497915371</span>
+</div>
+</div>
 </div>
 
 <!-- AUTO YEAR SCRIPT -->
 <script>
-document.getElementById("year").textContent = new Date().getFullYear();
+document.querySelectorAll(".year").forEach(el => {
+  el.textContent = new Date().getFullYear();
+});
 </script>
 
 </body>
