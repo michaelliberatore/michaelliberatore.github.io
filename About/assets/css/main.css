@@ -11,7 +11,7 @@ margin: 0 auto;
 
 body {
 font-family: Helvetica, Arial, sans-serif;
-font-size: 19px;
+font-size: 15px;
 color: #34704a;
 text-align: center;
 background-color: white;
@@ -93,12 +93,17 @@ margin: 0 auto;
 ========================= */
 
 .body {
-font-size: 35px;
+font-size: 21px;
 line-height: 1.4;
 padding: 60px;
 max-width: 1300px;
 margin: 0 auto;
 text-align: center;
+}
+
+/* About page override (ONLY when body has class="about") */
+body.about .body {
+font-size: 16px;
 }
 
 /* =========================
@@ -121,46 +126,36 @@ text-align: center;
 .DPUB {
 width: 100%;
 overflow: hidden;
-
 background-color: #34704a;
 color: #ffffff;
-
 padding: 10px 0;
 margin-top: 40px;
-
 position: relative;
 white-space: nowrap;
 }
 
-/* IMPORTANT: prevents layout stacking issues */
 .DPUB-track {
 display: flex;
 flex-wrap: nowrap;
 width: max-content;
 align-items: center;
-
 animation: scrollFooter 22s linear infinite;
 will-change: transform;
 }
 
-/* spacing between items (fixes bunching) */
 .DPUB-track span {
 display: inline-block;
 white-space: nowrap;
-
 color: #ffffff;
 font-size: 13px;
 font-weight: normal;
-
 padding-right: 100px;
 }
 
-/* year spacing */
 .DPUB .year {
 margin-left: 2px;
 }
 
-/* links */
 .DPUB a {
 color: #ffffff !important;
 text-decoration: none;
@@ -171,7 +166,6 @@ font-weight: normal;
 opacity: 0.7;
 }
 
-/* smooth scroll */
 @keyframes scrollFooter {
 0% {
 transform: translateX(0);
@@ -214,7 +208,6 @@ padding: 0 25px 40px 25px;
 text-align: center;
 }
 
-/* slower mobile scroll */
 .DPUB-track {
 animation: scrollFooter 28s linear infinite;
 }
