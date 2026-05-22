@@ -19,6 +19,11 @@ background-color: white;
 a {
 color: #34704a;
 text-decoration: none;
+font-weight: bold;
+}
+
+a:hover {
+opacity: 0.6;
 }
 
 /* =========================
@@ -46,6 +51,7 @@ cursor: pointer;
 font-size: 16px;
 display: inline-block;
 white-space: nowrap;
+font-weight: bold;
 }
 
 .btn:hover {
@@ -53,6 +59,7 @@ opacity: 0.6;
 }
 
 /* Ensure HOME always stays first */
+
 .nav .btn:first-child {
 order: -1;
 }
@@ -80,12 +87,12 @@ flex-wrap: wrap;
 justify-content: space-between;
 max-width: 1300px;
 margin: 0 auto;
-padding: 20px 10px; /* 🔥 reduced padding between image + text */
+padding: 20px 10px;
 }
 
 .item {
 width: 50%;
-padding: 10px; /* 🔥 reduced spacing */
+padding: 10px;
 text-align: center;
 background-color: white;
 }
@@ -94,15 +101,17 @@ background-color: white;
 width: 100%;
 display: block;
 margin: auto;
-padding: 20px 0; /* 🔥 reduced image spacing */
+padding: 20px 0;
 }
 
-/* Hover effect (cleaned) */
+/* Hover effect */
+
 .item img:hover {
 filter: grayscale(0%) contrast(1);
 }
 
 /* hide filter */
+
 .item.hide {
 display: none;
 }
@@ -121,7 +130,7 @@ text-align: center;
 }
 
 /* =========================
-   FOOTER (MATCH ABOUT PAGE STYLE)
+   FOOTER
 ========================= */
 
 .DPUB {
@@ -159,7 +168,7 @@ padding: 10px;
 }
 
 .item img {
-padding: 10px 0; /* even tighter on mobile */
+padding: 10px 0;
 }
 
 .DPUB {
