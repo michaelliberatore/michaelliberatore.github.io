@@ -117,6 +117,76 @@ display: none;
 }
 
 /* =========================
+   IMAGE CAROUSEL
+========================= */
+
+.carousel {
+position: relative;
+width: 100%;
+overflow: hidden;
+background-color: white;
+}
+
+.carousel-track {
+display: flex;
+transition: transform 0.5s ease-in-out;
+width: 100%;
+}
+
+.carousel-track img {
+width: 100%;
+flex: 0 0 100%;
+display: block;
+padding: 20px 0;
+object-fit: cover;
+}
+
+/* =========================
+   CAROUSEL ARROWS
+========================= */
+
+.carousel-btn {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+
+width: 42px;
+height: 42px;
+
+border: none;
+border-radius: 100px;
+
+background: rgba(255,255,255,0.9);
+
+color: #34704a;
+
+font-size: 22px;
+font-weight: bold;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+cursor: pointer;
+
+z-index: 10;
+
+transition: opacity 0.2s ease;
+}
+
+.carousel-btn:hover {
+opacity: 0.6;
+}
+
+.prev {
+left: 12px;
+}
+
+.next {
+right: 12px;
+}
+
+/* =========================
    CONTACT
 ========================= */
 
@@ -148,6 +218,7 @@ white-space: nowrap;
 }
 
 /* IMPORTANT: prevents layout stacking issues */
+
 .DPUB-track {
 display: flex;
 flex-wrap: nowrap;
@@ -158,7 +229,8 @@ animation: scrollFooter 22s linear infinite;
 will-change: transform;
 }
 
-/* spacing between items (fixes bunching) */
+/* spacing between items */
+
 .DPUB-track span {
 display: inline-block;
 white-space: nowrap;
@@ -171,11 +243,13 @@ padding-right: 100px;
 }
 
 /* year spacing */
+
 .DPUB .year {
 margin-left: 2px;
 }
 
 /* links */
+
 .DPUB a {
 color: #ffffff !important;
 text-decoration: none;
@@ -187,6 +261,7 @@ opacity: 0.7;
 }
 
 /* smooth scroll */
+
 @keyframes scrollFooter {
 0% {
 transform: translateX(0);
@@ -225,7 +300,26 @@ padding: 10px;
 padding: 10px 0;
 }
 
+.carousel-track img {
+padding: 10px 0;
+}
+
+.carousel-btn {
+width: 36px;
+height: 36px;
+font-size: 18px;
+}
+
+.prev {
+left: 8px;
+}
+
+.next {
+right: 8px;
+}
+
 /* slower mobile scroll */
+
 .DPUB-track {
 animation: scrollFooter 28s linear infinite;
 }
