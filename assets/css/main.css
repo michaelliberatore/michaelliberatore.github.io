@@ -112,6 +112,81 @@ margin-top: 16px;
 font-size: 21px;
 }
 
+
+/* =========================
+   IMAGE CAROUSEL
+========================= */
+
+.carousel {
+position: relative;
+width: 100%;
+overflow: hidden;
+background-color: white;
+}
+
+.carousel-track {
+display: flex;
+transition: transform 0.5s ease-in-out;
+width: 100%;
+}
+
+.carousel-track img {
+width: 100%;
+flex: 0 0 100%;
+display: block;
+padding: 20px 0;
+object-fit: cover;
+}
+
+/* =========================
+   CAROUSEL ARROWS
+========================= */
+
+.carousel-btn {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+
+width: 42px;
+height: 42px;
+
+border: none;
+border-radius: 100px;
+
+background: rgba(255,255,255,0.9);
+
+color: #34704a;
+
+font-size: 22px;
+font-weight: bold;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+cursor: pointer;
+
+z-index: 10;
+
+transition: opacity 0.2s ease;
+}
+
+.carousel-btn:hover {
+opacity: 0.6;
+}
+
+.prev {
+left: 12px;
+}
+
+.next {
+right: 12px;
+}
+
+
+
+
+
 /* =========================
    FOOTER (FIXED + STABLE MARQUEE)
 ========================= */
@@ -202,6 +277,24 @@ font-size: 18px;
 .btn {
 font-size: 14px;
 padding: 8px 12px;
+}
+
+.carousel-track img {
+padding: 10px 0;
+}
+
+.carousel-btn {
+width: 36px;
+height: 36px;
+font-size: 18px;
+}
+
+.prev {
+left: 8px;
+}
+
+.next {
+right: 8px;
 }
 
 /* slower mobile scroll */
