@@ -32,17 +32,6 @@ opacity: 0.6;
 }
 
 /* =========================
-   BOLD LINKS (CONTENT ONLY)
-   (NAV NOT AFFECTED)
-========================= */
-
-.body a,
-.Contact a,
-.DPUB a {
-font-weight: 700;
-}
-
-/* =========================
    NAV
 ========================= */
 
