@@ -27,7 +27,7 @@ opacity: 0.6;
 }
 
 /* =========================
-   HERO (EDITORIAL MOTION MARK)
+   HERO (FLOATING DRIFT - FIXED + STABLE)
 ========================= */
 
 .Heroimage {
@@ -35,6 +35,7 @@ width: 100%;
 margin: 0;
 padding: 0;
 overflow: hidden;
+perspective: 1200px;
 }
 
 .logo-spin-wrap {
@@ -43,31 +44,34 @@ max-width: 1080px;
 margin: 0 auto;
 position: relative;
 
-/* subtle “alive” motion, not rotation */
-animation: breatheFloat 8s ease-in-out infinite;
+/* IMPORTANT: ensures animation actually applies cleanly */
+display: block;
+transform: translateZ(0);
+
+/* floating drift motion */
+animation: drift 12s ease-in-out infinite;
+will-change: transform;
 }
 
 .logo-spin-wrap img {
 width: 100%;
 height: auto;
 display: block;
+transform: translateZ(0);
 }
 
-/* editorial presence motion */
-@keyframes breatheFloat {
+/* smooth editorial drift (more stable transform stack) */
+@keyframes drift {
 0% {
-transform: scale(1) translateY(0px);
-filter: blur(0px);
+transform: translate3d(0px, 0px, 0) rotateZ(-0.5deg) scale(1);
 }
 
 50% {
-transform: scale(1.01) translateY(-4px);
-filter: blur(0.2px);
+transform: translate3d(0px, -10px, 0) rotateZ(0.5deg) scale(1.01);
 }
 
 100% {
-transform: scale(1) translateY(0px);
-filter: blur(0px);
+transform: translate3d(0px, 0px, 0) rotateZ(-0.5deg) scale(1);
 }
 }
 
