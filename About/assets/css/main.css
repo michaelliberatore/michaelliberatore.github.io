@@ -24,6 +24,11 @@ background-color: white;
 a {
 color: #34704a;
 text-decoration: none;
+font-weight: bold;
+}
+
+a:hover {
+opacity: 0.6;
 }
 
 /* =========================
