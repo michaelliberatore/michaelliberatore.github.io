@@ -1,6 +1,7 @@
 * {
 margin: 0;
 padding: 0;
+padding-top: 60px;
 box-sizing: border-box;
 }
 
@@ -13,7 +14,7 @@ background-color: white;
 }
 
 /* =========================
-   LINKS
+LINKS
 ========================= */
 
 a {
@@ -27,12 +28,17 @@ opacity: 0.6;
 }
 
 /* =========================
-   HERO
+HERO
 ========================= */
 
 .Heroimage {
 width: 100%;
+height: 65vh;
+display: flex;
+align-items: center;
+justify-content: center;
 margin: 0;
+margin-top: -10px;
 padding: 0;
 overflow: hidden;
 perspective: 1200px;
@@ -67,13 +73,13 @@ transform: translateZ(0);
 .hero-tagline {
 width: 100%;
 max-width: 900px;
-margin: 30px auto 80px auto;
+margin: 10px auto 40px auto;
 padding: 0 30px;
 text-align: center;
 }
 
 .hero-tagline p {
-font-size: 32px;
+font-size: 28px;
 line-height: 1.15;
 font-weight: bold;
 color: #34704a;
@@ -199,21 +205,22 @@ opacity: 0.6;
 .testimonials {
 width: 100%;
 overflow: hidden;
-background-color: white;
+background-color: #34704a;
+color: white;
 padding: 20px 0;
 }
 
 .testimonials-track {
 display: flex;
 width: max-content;
-animation: scrollTestimonials 50s linear infinite;
+animation: scrollTestimonials 22s linear infinite;
 will-change: transform;
 }
 
 .testimonials-heading {
 font-size: 28px;
 font-weight: bold;
-color: #34704a;
+color: #ffffff;
 text-align: center;
 margin-bottom: 25px;
 }
@@ -223,7 +230,7 @@ flex: 0 0 70vw;
 max-width: 900px;
 padding: 0 60px;
 text-align: center;
-color: #34704a;
+color: #ffffff;
 }
 
 .testimonial p {
@@ -249,8 +256,8 @@ font-weight: normal;
 .DPUB {
 width: 100%;
 overflow: hidden;
-background-color: #34704a;
-color: #ffffff;
+background-color: #ffffff;
+color: #34704a;
 padding: 10px 0;
 margin-top: 40px;
 white-space: nowrap;
@@ -266,13 +273,13 @@ will-change: transform;
 
 .DPUB-track span {
 white-space: nowrap;
-color: #ffffff;
+color: #34704a;
 font-size: 13px;
 padding-right: 100px;
 }
 
 .DPUB a {
-color: #ffffff !important;
+color: #34704a !important;
 text-decoration: none;
 }
 
@@ -346,3 +353,4 @@ line-height: 1.4;
 font-size: 12px;
 }
 }
+
