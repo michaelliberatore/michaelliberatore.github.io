@@ -81,7 +81,7 @@ text-align: center;
 .hero-tagline p {
 font-size: 28px;
 line-height: 1.15;
-font-weight: bold;
+font-weight: regular;
 color: #34704a;
 letter-spacing: -0.02em;
 }
@@ -236,7 +236,7 @@ color: #ffffff;
 .testimonial p {
 font-size: 22px;
 line-height: 1.4;
-font-weight: bold;
+font-weight: normal;
 margin-bottom: 16px;
 }
 
