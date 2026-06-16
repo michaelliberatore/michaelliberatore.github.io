@@ -27,7 +27,7 @@ opacity: 0.6;
 }
 
 /* =========================
-   HERO (FLOATING DRIFT - FIXED + STABLE)
+   HERO
 ========================= */
 
 .Heroimage {
@@ -43,12 +43,8 @@ width: 100%;
 max-width: 1080px;
 margin: 0 auto;
 position: relative;
-
-/* IMPORTANT: ensures animation actually applies cleanly */
 display: block;
 transform: translateZ(0);
-
-/* floating drift motion */
 animation: drift 12s ease-in-out infinite;
 will-change: transform;
 }
@@ -60,26 +56,31 @@ display: block;
 transform: translateZ(0);
 }
 
-/* smooth editorial drift (more stable transform stack) */
 @keyframes drift {
-0% {
-transform: translate3d(0px, 0px, 0) rotateZ(-0.5deg) scale(1);
+0% { transform: translate3d(0px, 0px, 0) rotateZ(-0.5deg) scale(1); }
+50% { transform: translate3d(0px, -10px, 0) rotateZ(0.5deg) scale(1.01); }
+100% { transform: translate3d(0px, 0px, 0) rotateZ(-0.5deg) scale(1); }
 }
 
-50% {
-transform: translate3d(0px, -10px, 0) rotateZ(0.5deg) scale(1.01);
+/* ========================= HERO TAGLINE ========================= */
+
+.hero-tagline {
+width: 100%;
+max-width: 900px;
+margin: 30px auto 80px auto;
+padding: 0 30px;
+text-align: center;
 }
 
-100% {
-transform: translate3d(0px, 0px, 0) rotateZ(-0.5deg) scale(1);
-}
+.hero-tagline p {
+font-size: 32px;
+line-height: 1.15;
+font-weight: bold;
+color: #34704a;
+letter-spacing: -0.02em;
 }
 
-/* ========================= HERO TAGLINE ========================= */ .hero-tagline { width: 100%; max-width: 900px; margin: 30px auto 80px auto; padding: 0 30px; text-align: center; } .hero-tagline p { font-size: 32px; line-height: 1.15; font-weight: bold; color: #34704a; letter-spacing: -0.02em; }
-
-/* =========================
-   NAV
-========================= */
+/* ========================= NAV ========================= */
 
 .nav {
 width: 100%;
@@ -108,9 +109,7 @@ font-weight: bold;
 opacity: 0.6;
 }
 
-/* =========================
-   GRID
-========================= */
+/* ========================= GRID ========================= */
 
 .container {
 display: grid;
@@ -145,9 +144,7 @@ margin-top: 16px;
 font-size: 21px;
 }
 
-/* =========================
-   IMAGE CAROUSEL
-========================= */
+/* ========================= CAROUSEL ========================= */
 
 .carousel {
 position: relative;
@@ -170,36 +167,23 @@ padding: 20px 0;
 object-fit: cover;
 }
 
-/* =========================
-   CAROUSEL ARROWS
-========================= */
-
 .carousel-btn {
 position: absolute;
 top: 50%;
 transform: translateY(-50%);
-
 width: 42px;
 height: 42px;
-
 border: none;
 border-radius: 100px;
-
 background: rgba(255,255,255,0.9);
-
 color: #34704a;
-
 font-size: 22px;
 font-weight: bold;
-
 display: flex;
 align-items: center;
 justify-content: center;
-
 cursor: pointer;
-
 z-index: 10;
-
 transition: opacity 0.2s ease;
 }
 
@@ -207,61 +191,89 @@ transition: opacity 0.2s ease;
 opacity: 0.6;
 }
 
-.prev {
-left: 12px;
+.prev { left: 12px; }
+.next { right: 12px; }
+
+/* ========================= TESTIMONIALS ========================= */
+
+.testimonials {
+width: 100%;
+overflow: hidden;
+background-color: white;
+padding: 20px 0;
 }
 
-.next {
-right: 12px;
+.testimonials-track {
+display: flex;
+width: max-content;
+animation: scrollTestimonials 50s linear infinite;
+will-change: transform;
 }
 
-/* =========================
-   FOOTER
-========================= */
+.testimonials-heading {
+font-size: 28px;
+font-weight: bold;
+color: #34704a;
+text-align: center;
+margin-bottom: 25px;
+}
+
+.testimonial {
+flex: 0 0 70vw;
+max-width: 900px;
+padding: 0 60px;
+text-align: center;
+color: #34704a;
+}
+
+.testimonial p {
+font-size: 22px;
+line-height: 1.4;
+font-weight: bold;
+margin-bottom: 16px;
+}
+
+.testimonial span {
+font-size: 14px;
+opacity: 0.8;
+font-weight: normal;
+}
+
+@keyframes scrollTestimonials {
+0% { transform: translateX(0); }
+100% { transform: translateX(-50%); }
+}
+
+/* ========================= FOOTER ========================= */
 
 .DPUB {
 width: 100%;
 overflow: hidden;
-
 background-color: #34704a;
 color: #ffffff;
-
 padding: 10px 0;
 margin-top: 40px;
-
-position: relative;
 white-space: nowrap;
 }
 
 .DPUB-track {
 display: flex;
-flex-wrap: nowrap;
 width: max-content;
 align-items: center;
-
 animation: scrollFooter 22s linear infinite;
 will-change: transform;
 }
 
 .DPUB-track span {
-display: inline-block;
 white-space: nowrap;
-
 color: #ffffff;
 font-size: 13px;
-font-weight: normal;
-
 padding-right: 100px;
-}
-
-.DPUB .year {
-margin-left: 2px;
 }
 
 .DPUB a {
 color: #ffffff !important;
 text-decoration: none;
-font-weight: normal;
 }
 
 .DPUB a:hover {
@@ -269,17 +281,11 @@ opacity: 0.7;
 }
 
 @keyframes scrollFooter {
-0% {
-transform: translateX(0);
-}
-100% {
-transform: translateX(-50%);
-}
+0% { transform: translateX(0); }
+100% { transform: translateX(-50%); }
 }
 
-/* =========================
-   MOBILE
-========================= */
+/* ========================= MOBILE ========================= */
 
 @media (max-width: 768px) {
 
@@ -312,23 +318,31 @@ height: 36px;
 font-size: 18px;
 }
 
-.prev {
-left: 8px;
+.prev { left: 8px; }
+.next { right: 8px; }
+
+.hero-tagline {
+margin: 20px auto 50px auto;
+padding: 0 20px;
 }
 
-.next {
-right: 8px;
+.hero-tagline p {
+font-size: 22px;
+line-height: 1.25;
 }
 
-.DPUB-track {
-animation: scrollFooter 28s linear infinite;
+/* FIXED TESTIMONIAL MOBILE BEHAVIOUR */
+.testimonial {
+flex: 0 0 85vw;
+padding: 0 20px;
 }
 
-.DPUB-track span {
-padding-right: 60px;
+.testimonial p {
+font-size: 16px;
+line-height: 1.4;
+}
+
+.testimonial span {
 font-size: 12px;
 }
-
-.hero-tagline { margin: 20px auto 50px auto; padding: 0 20px; } .hero-tagline p { font-size: 22px; line-height: 1.25; } }
-
 }
