@@ -296,8 +296,6 @@ object-position: center 20%;
 display: block;
 }
 
-}
-
 .container {
 grid-template-columns: 1fr;
 gap: 30px;
