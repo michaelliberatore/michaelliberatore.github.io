@@ -1,7 +1,6 @@
 * {
 margin: 0;
 padding: 0;
-padding-top: 60px;
 box-sizing: border-box;
 }
 
@@ -11,6 +10,7 @@ font-size: 19px;
 color: #34704a;
 text-align: center;
 background-color: white;
+padding-top: 60px;
 }
 
 /* ========================= LINKS ========================= */
@@ -187,54 +187,45 @@ opacity: 0.6;
 /* ========================= TESTIMONIALS ========================= */
 
 .testimonials {
-width: 100%;
-overflow: hidden;
-background-color: #34704a;
+background: #34704a;
 color: white;
-padding: 20px 0;
-}
-
-.testimonials-track {
-display: flex;
-width: max-content;
-animation: scrollTestimonials 22s linear infinite;
-will-change: transform;
+padding: 40px 20px;
 }
 
 .testimonials-heading {
 font-size: 28px;
-font-weight: bold;
-color: #ffffff;
-text-align: center;
-margin-bottom: 25px;
+margin-bottom: 30px;
+color: white;
+}
+
+.testimonial-carousel {
+position: relative;
+max-width: 900px;
+margin: 0 auto;
+overflow: hidden;
+}
+
+.testimonial-track {
+display: flex;
+transition: transform 0.5s ease-in-out;
 }
 
 .testimonial {
-flex: 0 0 70vw;
-max-width: 900px;
+flex: 0 0 100%;
 padding: 0 60px;
-text-align: center;
-color: #ffffff;
+box-sizing: border-box;
 }
 
 .testimonial p {
 font-size: 22px;
 line-height: 1.4;
-font-weight: normal;
-margin-bottom: 16px;
+margin-bottom: 20px;
 }
 
 .testimonial span {
 font-size: 14px;
 opacity: 0.8;
-font-weight: normal;
 }
-
-@keyframes scrollTestimonials {
-0% { transform: translateX(0); }
-100% { transform: translateX(-50%); }
-}
-
 /* ========================= FOOTER ========================= */
 
 .DPUB {
@@ -320,13 +311,16 @@ padding: 10px 0;
 }
 
 .carousel-btn {
-width: 36px;
-height: 36px;
-font-size: 18px;
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+width: 42px;
+height: 42px;
+z-index: 10;
 }
 
-.prev { left: 8px; }
-.next { right: 8px; }
+.prev { left: -25px; }
+.next { right: -25px; }
 
 .hero-tagline {
 margin: 20px auto 50px auto;
@@ -339,9 +333,22 @@ line-height: 1.25;
 }
 
 /* FIXED TESTIMONIAL MOBILE BEHAVIOUR */
+.prev { left: 10px; }
+.next { right: 10px; }
+
 .testimonial {
-flex: 0 0 85vw;
+flex: 0 0 100%;
 padding: 0 20px;
+}
+
+.testimonial-track {
+display: flex;
+align-items: center;
+}
+
+.testimonial-carousel {
+overflow: hidden;
+width: 100%;
 }
 
 .testimonial p {
