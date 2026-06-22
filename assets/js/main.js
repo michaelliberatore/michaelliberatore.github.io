@@ -18,18 +18,31 @@ $(document).ready(function () {
         `translateX(-${testimonialIndex * 100}%)`;
     }
 
-    testimonialNext.addEventListener('click', () => {
+    function nextTestimonial() {
       testimonialIndex =
         (testimonialIndex + 1) % testimonialSlides.length;
       updateTestimonials();
-    });
+    }
 
-    testimonialPrev.addEventListener('click', () => {
+    function prevTestimonial() {
       testimonialIndex =
         (testimonialIndex - 1 + testimonialSlides.length) %
         testimonialSlides.length;
       updateTestimonials();
-    });
+    }
+
+    testimonialNext.addEventListener('click', nextTestimonial);
+    testimonialPrev.addEventListener('click', prevTestimonial);
+
+    // =========================
+    // MOBILE AUTO-SCROLL
+    // =========================
+
+    if (window.matchMedia("(max-width: 768px)").matches) {
+      setInterval(() => {
+        nextTestimonial();
+      }, 4000);
+    }
   }
 
   // =========================
