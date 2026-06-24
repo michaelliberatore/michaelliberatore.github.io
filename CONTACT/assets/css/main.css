@@ -1,0 +1,215 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.site {
+max-width: 1300px;
+margin: 0 auto;
+}
+
+body {
+font-family: Helvetica, Arial, sans-serif;
+font-size: 15px;
+color: #34704a;
+text-align: center;
+background-color: white;
+}
+
+/* =========================
+   LINKS
+========================= */
+
+a {
+color: #34704a;
+text-decoration: none;
+font-weight: bold;
+}
+
+a:hover {
+opacity: 0.6;
+}
+
+/* =========================
+   NAV
+========================= */
+
+.nav {
+width: 100%;
+position: sticky;
+top: 0;
+left: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #ffffff;
+z-index: 1000;
+padding: 0;
+margin: 0;
+}
+
+.btn {
+border: none;
+background-color: #ffffff;
+color: #34704a;
+padding: 15px 18px;
+cursor: pointer;
+font-size: 16px;
+display: inline-block;
+}
+
+.btn:hover {
+opacity: 0.6;
+}
+
+/* =========================
+   HERO
+========================= */
+
+.Heroimage {
+width: 100%;
+padding-top: 40px;
+margin: 0 auto;
+}
+
+.Heroimage img {
+width: 100%;
+max-width: 1080px;
+height: auto;
+display: block;
+margin: 0 auto;
+}
+
+/* =========================
+   ABOUT BODY
+========================= */
+
+.body {
+font-size: 21px;
+line-height: 1.4;
+padding: 60px;
+max-width: 1300px;
+margin: 0 auto;
+text-align: center;
+}
+
+/* About page override (ONLY when body has class="about") */
+
+body.about .body {
+font-size: 16px;
+}
+
+/* =========================
+   CONTACT
+========================= */
+
+.Contact {
+font-size: 35px;
+line-height: 1.4;
+padding: 0 60px 60px 60px;
+max-width: 1300px;
+margin: 0 auto;
+text-align: center;
+}
+
+/* =========================
+   FOOTER (FIXED + STABLE MARQUEE)
+========================= */
+
+.DPUB {
+width: 100%;
+overflow: hidden;
+background-color: #34704a;
+color: #ffffff;
+padding: 10px 0;
+margin-top: 40px;
+position: relative;
+white-space: nowrap;
+}
+
+.DPUB-track {
+display: flex;
+flex-wrap: nowrap;
+width: max-content;
+align-items: center;
+animation: scrollFooter 22s linear infinite;
+will-change: transform;
+}
+
+.DPUB-track span {
+display: inline-block;
+white-space: nowrap;
+color: #ffffff;
+font-size: 13px;
+font-weight: normal;
+padding-right: 100px;
+}
+
+.DPUB .year {
+margin-left: 2px;
+}
+
+.DPUB a {
+color: #ffffff !important;
+text-decoration: none;
+font-weight: normal;
+}
+
+.DPUB a:hover {
+opacity: 0.7;
+}
+
+@keyframes scrollFooter {
+0% {
+transform: translateX(0);
+}
+100% {
+transform: translateX(-50%);
+}
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+.nav {
+background-color: #ffffff;
+padding: 0;
+}
+
+.btn {
+font-size: 14px;
+padding: 12px 10px;
+background-color: #ffffff;
+}
+
+.Heroimage {
+padding-top: 25px;
+}
+
+.body {
+font-size: 24px;
+line-height: 1.4;
+padding: 25px;
+}
+
+.Contact {
+font-size: 24px;
+line-height: 1.4;
+padding: 0 25px 40px 25px;
+text-align: center;
+}
+
+.DPUB-track {
+animation: scrollFooter 28s linear infinite;
+}
+
+.DPUB-track span {
+padding-right: 60px;
+font-size: 12px;
+}
+
+}
