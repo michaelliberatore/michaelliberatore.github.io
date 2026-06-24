@@ -1,13 +1,40 @@
+
+/* =========================
+   RESET
+========================= */
+
 * {
 margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
 
+html, body {
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+}
+
+/* =========================
+   LAYOUT WRAPPER
+========================= */
+
 .site {
 max-width: 1300px;
 margin: 0 auto;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
 }
+
+/* ensures footer sits at bottom */
+main {
+flex: 1;
+}
+
+/* =========================
+   BASE STYLES
+========================= */
 
 body {
 font-family: Helvetica, Arial, sans-serif;
@@ -15,6 +42,7 @@ font-size: 15px;
 color: #34704a;
 text-align: center;
 background-color: white;
+line-height: 1.4;
 }
 
 /* =========================
@@ -82,7 +110,7 @@ margin: 0 auto;
 }
 
 /* =========================
-   ABOUT BODY
+   BODY TEXT (ABOUT / GENERAL)
 ========================= */
 
 .body {
@@ -94,36 +122,88 @@ margin: 0 auto;
 text-align: center;
 }
 
-/* About page override (ONLY when body has class="about") */
-
+/* About page override */
 body.about .body {
 font-size: 16px;
 }
 
 /* =========================
-   CONTACT
+   CONTACT (FIXED STRUCTURE)
 ========================= */
 
-.Contact {
-font-size: 35px;
-line-height: 1.4;
-padding: 0 60px 60px 60px;
-max-width: 1300px;
-margin: 0 auto;
-text-align: center;
+.contact-page {
+max-width: 900px;
+margin: 120px auto 0;
+padding: 0 24px 80px;
+}
+
+.contact-intro {
+margin-bottom: 60px;
+}
+
+.contact-intro h1 {
+font-size: 42px;
+font-weight: normal;
+letter-spacing: -0.02em;
+margin-bottom: 10px;
+}
+
+.contact-intro p {
+font-size: 15px;
+opacity: 0.7;
+}
+
+.contact-grid {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 60px 80px;
+margin-top: 40px;
+}
+
+.contact-block h3 {
+font-size: 12px;
+letter-spacing: 0.12em;
+text-transform: uppercase;
+font-weight: normal;
+opacity: 0.6;
+margin-bottom: 12px;
+}
+
+.contact-block a {
+font-size: 18px;
+color: #34704a;
+text-decoration: none;
+font-weight: bold;
+position: relative;
+display: inline-block;
+}
+
+.contact-block a::after {
+content: "";
+position: absolute;
+left: 0;
+bottom: -4px;
+width: 0%;
+height: 1px;
+background: #34704a;
+transition: width 0.25s ease;
+}
+
+.contact-block a:hover::after {
+width: 100%;
 }
 
 /* =========================
-   FOOTER (FIXED + STABLE MARQUEE)
+   FOOTER (MARQUEE)
 ========================= */
 
 .DPUB {
-width: 100%;
-overflow: hidden;
+width: 100vw;
+margin-left: calc(50% - 50vw);
 background-color: #34704a;
 color: #ffffff;
 padding: 10px 0;
-margin-top: 40px;
+overflow: hidden;
 position: relative;
 white-space: nowrap;
 }
@@ -144,10 +224,6 @@ color: #ffffff;
 font-size: 13px;
 font-weight: normal;
 padding-right: 100px;
-}
-
-.DPUB .year {
-margin-left: 2px;
 }
 
 .DPUB a {
@@ -196,11 +272,18 @@ line-height: 1.4;
 padding: 25px;
 }
 
-.Contact {
-font-size: 24px;
-line-height: 1.4;
-padding: 0 25px 40px 25px;
-text-align: center;
+.contact-page {
+margin: 80px auto 0;
+padding: 0 25px 60px;
+}
+
+.contact-intro h1 {
+font-size: 30px;
+}
+
+.contact-grid {
+grid-template-columns: 1fr;
+gap: 35px;
 }
 
 .DPUB-track {
@@ -211,5 +294,4 @@ animation: scrollFooter 28s linear infinite;
 padding-right: 60px;
 font-size: 12px;
 }
-
 }
