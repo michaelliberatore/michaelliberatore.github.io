@@ -206,13 +206,10 @@ text-align: center;
 .DPUB {
 width: 100%;
 overflow: hidden;
-
 background-color: #34704a;
 color: #ffffff;
-
 padding: 10px 0;
 margin-top: 40px;
-
 position: relative;
 white-space: nowrap;
 }
