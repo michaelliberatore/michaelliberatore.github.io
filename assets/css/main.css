@@ -187,15 +187,15 @@ opacity: 0.6;
 /* ========================= TESTIMONIALS ========================= */
 
 .testimonials {
-background: #34704a;
-color: white;
+background: #ffffff;
+color: #34704a;
 padding: 40px 20px;
 }
 
 .testimonials-heading {
 font-size: 28px;
 margin-bottom: 30px;
-color: white;
+color: #34704a;
 }
 
 .testimonial-carousel {
@@ -231,8 +231,8 @@ opacity: 0.8;
 .DPUB {
 width: 100%;
 overflow: hidden;
-background-color: #ffffff;
-color: #34704a;
+background-color: #34704a;
+color: #ffffff;
 padding: 10px 0;
 margin-top: 40px;
 white-space: nowrap;
@@ -248,13 +248,13 @@ will-change: transform;
 
 .DPUB-track span {
 white-space: nowrap;
-color: #34704a;
+color: #ffffff;
 font-size: 13px;
 padding-right: 100px;
 }
 
 .DPUB a {
-color: #34704a !important;
+color: #ffffff !important;
 text-decoration: none;
 }
 
@@ -274,6 +274,7 @@ opacity: 0.7;
 .carousel-btn {
 display: none;   
 }
+
 
 .Heroimage {
 height: 50svh;
