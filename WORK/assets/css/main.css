@@ -12,9 +12,7 @@ text-align: center;
 background-color: white;
 }
 
-/* =========================
-   LINKS
-========================= */
+/* ========================= LINKS ========================= */
 
 a {
 color: #34704a;
@@ -56,9 +54,7 @@ font-weight: bold;
 opacity: 0.6;
 }
 
-/* =========================
-   BODY TEXT (if used)
-========================= */
+/* ========================= BODY TEXT ========================= */
 
 .body {
 font-size: 35px;
@@ -69,9 +65,7 @@ margin: 0 auto;
 text-align: center;
 }
 
-/* =========================
-   WORK GRID / CONTAINER
-========================= */
+/* ========================= WORK GRID/CONTAINER ========================= */
 
 .container {
 display: flex;
@@ -108,9 +102,7 @@ filter: grayscale(0%) contrast(1);
 display: none;
 }
 
-/* =========================
-   IMAGE CAROUSEL
-========================= */
+/* ========================= IMAGE CAROUSEL ========================= */
 
 .carousel {
 position: relative;
@@ -133,9 +125,7 @@ padding: 20px 0;
 object-fit: cover;
 }
 
-/* =========================
-   CAROUSEL ARROWS
-========================= */
+/* ========================= CAROUSEL ARROWS ========================= */
 
 .carousel-btn {
 position: absolute;
@@ -178,9 +168,7 @@ left: 12px;
 right: 12px;
 }
 
-/* =========================
-   CONTACT
-========================= */
+/* ========================= CONTACT ========================= */
 
 .Contact {
 font-size: 35px;
@@ -191,9 +179,7 @@ margin: 0 auto;
 text-align: center;
 }
 
-/* =========================
-   FOOTER (FIXED + STABLE MARQUEE)
-========================= */
+/* ========================= FOOTER (FIXED + STABLE MARQUEE) ========================= */
 
 .DPUB {
 width: 100%;
@@ -260,9 +246,7 @@ transform: translateX(-50%);
 }
 }
 
-/* =========================
-   MOBILE
-========================= */
+/* ========================= MOBILE ========================= */
 
 @media (max-width: 768px) {
 
