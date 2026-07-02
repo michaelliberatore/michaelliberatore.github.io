@@ -84,15 +84,15 @@ opacity: 0.6;
 
 .Heroimage {
 width: 100%;
-padding-top: 40px;
-margin: 0 auto;
+text-align: center;
+margin: 10px auto 25px;
 }
 
 .Heroimage img {
-width: 100%;
-max-width: 1080px;
-height: auto;
 display: block;
+width: 90%;
+max-width: 650px; /* or whatever size looks best */
+height: auto;
 margin: 0 auto;
 }
 
@@ -102,6 +102,7 @@ margin: 0 auto;
 font-size: 21px;
 line-height: 1.4;
 padding: 60px;
+padding-bottom: 20px; /* was effectively 60px */
 max-width: 1300px;
 margin: 0 auto;
 text-align: center;
@@ -112,16 +113,20 @@ body.about .body {
 font-size: 16px;
 }
 
+.body p {
+margin-bottom: 24px;
+}
+
+.body p:last-child {
+margin-bottom: 0;
+}
+
 /* ========================= CONTACT (FIXED STRUCTURE) ========================= */
 
 .contact-page {
 max-width: 900px;
-margin: 120px auto 0;
+margin: 20px auto 0;
 padding: 0 24px 80px;
-}
-
-.contact-intro {
-margin-bottom: 60px;
 }
 
 .contact-intro h1 {
@@ -140,7 +145,7 @@ opacity: 0.7;
 display: grid;
 grid-template-columns: 1fr 1fr;
 gap: 60px 80px;
-margin-top: 40px;
+margin-top: 10px;
 }
 
 .contact-block h3 {
@@ -230,6 +235,9 @@ transform: translateX(-50%);
 
 @media (max-width: 768px) {
 
+main {
+padding-top: 55px; /* Mobile nav height */
+}
 .nav {
 background-color: #ffffff;
 padding: 0;
@@ -241,12 +249,8 @@ padding: 12px 10px;
 background-color: #ffffff;
 }
 
-.Heroimage {
-padding-top: 25px;
-}
-
 .body {
-font-size: 24px;
+font-size: 18px;
 line-height: 1.4;
 padding: 25px;
 }
